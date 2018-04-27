@@ -1,0 +1,28 @@
+Name,Type,Tier,Cost Red,Cost Blue,Cost Yellow,Catastrophe Color,Catastrophe Color2,Description,Card Value,Card Status,Supply,Image
+Goal1,Goal,,,,,,,4+ population.,,x,1,Goal
+Goal2,Goal,,,,,,,2+ traits.,,x,1,Goal
+Goal3,Goal,,,,,,,5+ Initiative.,,x,1,Goal
+Goal4,Goal,,,,,,,"Species is wiped out, bid on the new species.",,x,1,Goal
+Goal5,Goal,,,,,,,5+ Survivability,,x,1,Goal
+Goal6,Goal,,,,,,,3 or more population in the same hex.,,x,1,Goal
+Goal7,Goal,,,,,,,Move into a hex that already contains 2+ other species.,,x,1,Goal
+Goal8,Goal,,,,,,,One species in 6+ hexes.,,x,1,Goal
+Goal9,Goal,,,,,,,6+ food in a single hex containing this species.,,x,1,Goal
+Resource Stockpile,Lab,,1,,,,,Spend the required number of red \Gene to gain any number of \Trait.,,x,1,labTrait
+Incinerator ,Lab,,1,,,,,Spend any number of blue \Gene and place that much food on the board.,,x,1,labFood
+Bonus Funding,Lab,,1,,,,,Spend any number of Black \Gene and increase one species stats by 1 per \Gene spent.,,x,1,stat
+Matter Converter,Lab,,1,,,,,Spend 2 yellow \Gene per \Gene to add to your bag. Purple costs 3 \Gene.,,x,1,labBag
+Growth Vats,Lab,,2,,,,,Spend 1 \Gene of each color. Complete all of your private objectives.,,x,1,Lab
+Mutation Chamber,Lab,,2,,,,,Spend 2 Blue \Gene. Move all population from one hex to an adjacent hex.,,x,1,Lab
+Mutation Chamber,Lab,,2,,,,,Spend 2 Black \Gene. Spread a catastrophe to an adjacent hex.,,x,1,Lab
+Mutation Chamber,Lab,,2,,,,,Spend 3 Red \Gene. Add \Trait from the top of the deck to a species until it has 3 \Trait.,,x,1,Lab
+Mutation Chamber,Lab,,2,,,,,Spend 2 Yellow \Gene. Gain 2 \Gene of one color and place them into your bag.,,x,1,Lab
+Mutation Chamber,Lab,,2,,,,,Spend 2 Purple \Gene. Take any action three times. Pay its cost once.,,x,1,Lab
+Mutation Chamber,Lab,,2,,,,,Spend 1 Red \Gene and 1 Black \Gene. Increase a species stats by 3 and that species gains the top \Trait of the deck.,,x,1,Lab
+Mutation Chamber,Lab,,2,,,,,Spend 1 Blue \Gene and 1 Purple \Gene to remove all food from a hex.,,x,1,Lab
+Intelligence,Trait,,1,,,,,This species will not move into a catastrophe that will kill it.,,x,2,trait
+Photosynthesis,Trait,,1,,,,,This species cannot move and no longer consumes food. +1 population per turn.,,x,2,trait
+Night Vision,Trait,,1,,,,,1 population of this species in each hex does not need to eat.,,x,2,trait
+Scavenger ,Trait,,2,,,,,1 food feeds all population of this species in this hex.,,x,2,trait
+Apex Predator,Trait,,2,,,,,Other species cannot enter hexes this species occupies.,,x,2,trait
+Fertile,Trait,,3,,,,,Treat all non-plant species as food. This can no longer consume food on the board.,,x,2,trait

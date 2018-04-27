@@ -1,0 +1,231 @@
+\begin{tikzpicture} 
+\cardborder{} 
+\cardcost{}{}{} 
+\cardinfo{Goal1}{goal} 
+\cardcontent{4+ population.} 
+\end{tikzpicture}
+\hspace{-4mm}
+\begin{tikzpicture} 
+\cardborder{} 
+\cardcost{}{}{} 
+\cardinfo{Goal2}{goal} 
+\cardcontent{2+ traits.} 
+\end{tikzpicture}
+\hspace{-4mm}
+\begin{tikzpicture} 
+\cardborder{} 
+\cardcost{}{}{} 
+\cardinfo{Goal3}{goal} 
+\cardcontent{5+ Initiative.} 
+\end{tikzpicture}
+\hspace{-4mm}
+\begin{tikzpicture} 
+\cardborder{} 
+\cardcost{}{}{} 
+\cardinfo{Goal4}{goal} 
+\cardcontent{Species is wiped out, bid on the new species.} 
+\end{tikzpicture}
+\hspace{-4mm}
+\begin{tikzpicture} 
+\cardborder{} 
+\cardcost{}{}{} 
+\cardinfo{Goal5}{goal} 
+\cardcontent{5+ Survivability} 
+\end{tikzpicture}
+\hspace{-4mm}
+\begin{tikzpicture} 
+\cardborder{} 
+\cardcost{}{}{} 
+\cardinfo{Goal6}{goal} 
+\cardcontent{3 or more population in the same hex.} 
+\end{tikzpicture}
+\hspace{-4mm}
+\begin{tikzpicture} 
+\cardborder{} 
+\cardcost{}{}{} 
+\cardinfo{Goal7}{goal} 
+\cardcontent{Move into a hex that already contains 2+ other species.} 
+\end{tikzpicture}
+\hspace{-4mm}
+\begin{tikzpicture} 
+\cardborder{} 
+\cardcost{}{}{} 
+\cardinfo{Goal8}{goal} 
+\cardcontent{One species in 6+ hexes.} 
+\end{tikzpicture}
+\hspace{-4mm}
+\begin{tikzpicture} 
+\cardborder{} 
+\cardcost{}{}{} 
+\cardinfo{Goal9}{goal} 
+\cardcontent{6+ food in a single hex containing this species.} 
+\end{tikzpicture}
+\hspace{-4mm}
+\begin{tikzpicture} 
+\cardborder{} 
+\cardcost{1}{}{} 
+\cardinfo{Resource Stockpile}{labtrait} 
+\cardcontent{Spend the required number of red \Gene to gain any number of \Trait.} 
+\end{tikzpicture}
+\hspace{-4mm}
+\begin{tikzpicture} 
+\cardborder{} 
+\cardcost{1}{}{} 
+\cardinfo{Incinerator }{labfood} 
+\cardcontent{Spend any number of blue \Gene and place that much food on the board.} 
+\end{tikzpicture}
+\hspace{-4mm}
+\begin{tikzpicture} 
+\cardborder{} 
+\cardcost{1}{}{} 
+\cardinfo{Bonus Funding}{stat} 
+\cardcontent{Spend any number of Black \Gene and increase one species stats by 1 per \Gene spent.} 
+\end{tikzpicture}
+\hspace{-4mm}
+\begin{tikzpicture} 
+\cardborder{} 
+\cardcost{1}{}{} 
+\cardinfo{Matter Converter}{labbag} 
+\cardcontent{Spend 2 yellow \Gene per \Gene to add to your bag. Purple costs 3 \Gene.} 
+\end{tikzpicture}
+\hspace{-4mm}
+\begin{tikzpicture} 
+\cardborder{} 
+\cardcost{2}{}{} 
+\cardinfo{Growth Vats}{lab} 
+\cardcontent{Spend 1 \Gene of each color. Complete all of your private objectives.} 
+\end{tikzpicture}
+\hspace{-4mm}
+\begin{tikzpicture} 
+\cardborder{} 
+\cardcost{2}{}{} 
+\cardinfo{Mutation Chamber}{lab} 
+\cardcontent{Spend 2 Blue \Gene. Move all population from one hex to an adjacent hex.} 
+\end{tikzpicture}
+\hspace{-4mm}
+\begin{tikzpicture} 
+\cardborder{} 
+\cardcost{2}{}{} 
+\cardinfo{Mutation Chamber}{lab} 
+\cardcontent{Spend 2 Black \Gene. Spread a catastrophe to an adjacent hex.} 
+\end{tikzpicture}
+\hspace{-4mm}
+\begin{tikzpicture} 
+\cardborder{} 
+\cardcost{2}{}{} 
+\cardinfo{Mutation Chamber}{lab} 
+\cardcontent{Spend 3 Red \Gene. Add \Trait from the top of the deck to a species until it has 3 \Trait.} 
+\end{tikzpicture}
+\hspace{-4mm}
+\begin{tikzpicture} 
+\cardborder{} 
+\cardcost{2}{}{} 
+\cardinfo{Mutation Chamber}{lab} 
+\cardcontent{Spend 2 Yellow \Gene. Gain 2 \Gene of one color and place them into your bag.} 
+\end{tikzpicture}
+\hspace{-4mm}
+\begin{tikzpicture} 
+\cardborder{} 
+\cardcost{2}{}{} 
+\cardinfo{Mutation Chamber}{lab} 
+\cardcontent{Spend 2 Purple \Gene. Take any action three times. Pay its cost once.} 
+\end{tikzpicture}
+\hspace{-4mm}
+\begin{tikzpicture} 
+\cardborder{} 
+\cardcost{2}{}{} 
+\cardinfo{Mutation Chamber}{lab} 
+\cardcontent{Spend 1 Red \Gene and 1 Black \Gene. Increase a species stats by 3 and that species gains the top \Trait of the deck.} 
+\end{tikzpicture}
+\hspace{-4mm}
+\begin{tikzpicture} 
+\cardborder{} 
+\cardcost{2}{}{} 
+\cardinfo{Mutation Chamber}{lab} 
+\cardcontent{Spend 1 Blue \Gene and 1 Purple \Gene to remove all food from a hex.} 
+\end{tikzpicture}
+\hspace{-4mm}
+\begin{tikzpicture} 
+\cardborder{} 
+\cardcost{1}{}{} 
+\cardinfo{Intelligence}{trait} 
+\cardcontent{This species will not move into a catastrophe that will kill it.} 
+\end{tikzpicture}
+\hspace{-4mm}
+\begin{tikzpicture} 
+\cardborder{} 
+\cardcost{1}{}{} 
+\cardinfo{Intelligence}{trait} 
+\cardcontent{This species will not move into a catastrophe that will kill it.} 
+\end{tikzpicture}
+\hspace{-4mm}
+\begin{tikzpicture} 
+\cardborder{} 
+\cardcost{1}{}{} 
+\cardinfo{Photosynthesis}{trait} 
+\cardcontent{This species cannot move and no longer consumes food. +1 population per turn.} 
+\end{tikzpicture}
+\hspace{-4mm}
+\begin{tikzpicture} 
+\cardborder{} 
+\cardcost{1}{}{} 
+\cardinfo{Photosynthesis}{trait} 
+\cardcontent{This species cannot move and no longer consumes food. +1 population per turn.} 
+\end{tikzpicture}
+\hspace{-4mm}
+\begin{tikzpicture} 
+\cardborder{} 
+\cardcost{1}{}{} 
+\cardinfo{Night Vision}{trait} 
+\cardcontent{1 population of this species in each hex does not need to eat.} 
+\end{tikzpicture}
+\hspace{-4mm}
+\begin{tikzpicture} 
+\cardborder{} 
+\cardcost{1}{}{} 
+\cardinfo{Night Vision}{trait} 
+\cardcontent{1 population of this species in each hex does not need to eat.} 
+\end{tikzpicture}
+\hspace{-4mm}
+\begin{tikzpicture} 
+\cardborder{} 
+\cardcost{2}{}{} 
+\cardinfo{Scavenger }{trait} 
+\cardcontent{1 food feeds all population of this species in this hex.} 
+\end{tikzpicture}
+\hspace{-4mm}
+\begin{tikzpicture} 
+\cardborder{} 
+\cardcost{2}{}{} 
+\cardinfo{Scavenger }{trait} 
+\cardcontent{1 food feeds all population of this species in this hex.} 
+\end{tikzpicture}
+\hspace{-4mm}
+\begin{tikzpicture} 
+\cardborder{} 
+\cardcost{2}{}{} 
+\cardinfo{Apex Predator}{trait} 
+\cardcontent{Other species cannot enter hexes this species occupies.} 
+\end{tikzpicture}
+\hspace{-4mm}
+\begin{tikzpicture} 
+\cardborder{} 
+\cardcost{2}{}{} 
+\cardinfo{Apex Predator}{trait} 
+\cardcontent{Other species cannot enter hexes this species occupies.} 
+\end{tikzpicture}
+\hspace{-4mm}
+\begin{tikzpicture} 
+\cardborder{} 
+\cardcost{3}{}{} 
+\cardinfo{Fertile}{trait} 
+\cardcontent{Treat all non-plant species as food. This can no longer consume food on the board.} 
+\end{tikzpicture}
+\hspace{-4mm}
+\begin{tikzpicture} 
+\cardborder{} 
+\cardcost{3}{}{} 
+\cardinfo{Fertile}{trait} 
+\cardcontent{Treat all non-plant species as food. This can no longer consume food on the board.} 
+\end{tikzpicture}
+\hspace{-4mm}
