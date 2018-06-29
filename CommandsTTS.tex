@@ -1,0 +1,131 @@
+%   Macros on size
+\pgfmathsetmacro{\cardwidth}{18}
+\pgfmathsetmacro{\cardheight}{25.5}
+\pgfmathsetmacro{\imagewidth}{\cardwidth}
+\pgfmathsetmacro{\imageheight}{0.75*\cardheight}
+
+% Macros for text
+\newcommand{\EndRound}{\textbf{At end of round}, }
+\newcommand{\imageSize}{1.5cm}
+\newcommand{\CostR}{\includegraphics[height = \imageSize]{CostR} }
+\newcommand{\CostB}{\includegraphics[height = \imageSize]{CostB} }
+\newcommand{\CostY}{\includegraphics[height = \imageSize]{CostY} }
+\newcommand{\CostW}{\includegraphics[height = \imageSize]{CostW} }
+\newcommand{\Desert}{\includegraphics[height = \imageSize]{Desert} }
+\newcommand{\Marsh}{\includegraphics[height = \imageSize]{Marsh} }
+\newcommand{\Ocean}{\includegraphics[height = \imageSize]{Ocean} }
+\newcommand{\Jungle}{\includegraphics[height = \imageSize]{Jungle} }
+\newcommand{\Population}{\includegraphics[height = \imageSize]{population} }
+\newcommand{\Trait}{\includegraphics[height = \imageSize]{trait} }
+\newcommand{\Gene}{\includegraphics[height = \imageSize]{gene} }
+\newcommand{\Disaster}{\includegraphics[height = \imageSize]{disaster} }
+\newcommand{\Epidemic}{\includegraphics[height = \imageSize]{epidemic} }
+\newcommand{\StartRound}{\includegraphics[height = \imageSize] {startRound} }
+\newcommand{\WhenGain}{\includegraphics[height = \imageSize] {gain} }
+\newcommand{\OnceRound}{\includegraphics[height = \imageSize] {onceRound}: }
+\newcommand{\Feed}{\includegraphics[height = \imageSize] {Feed}: }
+
+%   Defines the card shape
+\def\shapeCard{(0,0) rectangle (\cardwidth,\cardheight)}
+
+%   Add Rounded corners.
+\tikzset{
+    cardcorners/.style={
+        rounded corners=0.2cm
+    }
+}
+
+% Draws the border and snips everything to be within the card area.
+\newcommand{\cardborder}{
+    %\clip[cardcorners] \shapeCard;
+    %\draw[cardcorners] \shapeCard;
+}
+
+% Adds the stats for the card. The stats input in order:
+% Cost, Strength, Prosperity, Loyalty
+\newcommand{\cardcost}[3]{
+		%\node[left] at (\cardwidth*.20,\cardheight*.8) {#1\CostR};
+		\ifthenelse{ #1> 0}{\node[left] at (\cardwidth*.20,\cardheight*.8) {\Huge{#1}\CostR};}{}
+		\ifthenelse{ #2> 0}{\node[left] at (\cardwidth*.20,\cardheight*.7) {\Huge#2\CostB};}{}
+		\ifthenelse{ #3> 0}{\node[left] at (\cardwidth*.20,\cardheight*.6) {\Huge#3\CostY};}{}
+}
+
+\newcommand{\cardcatacolor}[2]{
+	\node[right] at (\cardwidth*.7,\cardheight*.85) {\includegraphics[height = .7cm]{#1}};
+	\node[right] at (\cardwidth*.7,\cardheight*.75) {\includegraphics[height = .7cm]{#2}};
+}
+
+\newcommand{\cardbiome}[1]{
+	\node[left] at (\cardwidth*.50,\cardheight*.1) {\includegraphics[height = .7cm]{#1}};
+}
+
+\newcommand{\cardcata}[2]{
+	\ifthenelse{ #1> 0}{\node[left] at (\cardwidth*.20,\cardheight*.8) {\Huge#1\Disaster};}{}
+	\ifthenelse{ #2> 0}{\node[left] at (\cardwidth*.20,\cardheight*.7) {\Huge#2\Epidemic};}{}
+}
+
+\newcommand{\cardextra}[2] {
+	\ifthenelse{ #1> 0}{\node[right] at (\cardwidth*.80,\cardheight*.8) {#1\Population};}{}
+	\ifthenelse{ #2> 0}{\node[right] at (\cardwidth*.80,\cardheight*.7) {#2\Trait};}{}
+	
+	
+}
+
+% Adds the name, image and description to the card.
+% The input is name, image_name
+\newcommand{\cardinfo}[2]{
+		% Add the title with some shadow
+		\node[text width=14.5cm, below right] at (\cardwidth*.2,\cardheight*.95) {
+       \shadowtext{\parbox{8.5cm}{\begin{spacing}{3.6}\textbf{\hspace{-1.5cm}\uppercase{\Huge #1}}\end{spacing}}}
+    };
+		% Add the image to the card.
+		\node at (\cardwidth*.5, \cardheight*.7) {\includegraphics[height = 6.75cm, width = 9cm, keepaspectratio]{#2}};
+}
+
+% Adds the description and boxes it.
+\newcommand{\cardcontent}[1]{
+	\node[draw, rectangle, ultra thick, text width=15.5cm, below] at (\cardwidth*.5, 0.5*\cardheight) {\textrm{\Huge#1}};
+}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Legacy commands
+
+\newcommand{\cardbackground}[1]{
+		\clip[cardcorners] \shapeCard;
+		%\draw[fill=white] (\cardwidth-.2,\cardheight-.2)--(.2,\cardheight-.2)--(.2,.2)--(\cardwidth-.2,.2)--cycle;
+    %\node at (\cardwidth/2, \cardheight/2) {\includegraphics[height = 9.5cm]{#1}};
+		\node[rotate=270] at (5,6.15) {\textbf{\large{\uppercase{#1}}}};
+		\node[rotate=0] at (5,8) {\includegraphics[height = .95cm]{#1}};
+}
+
+
+
+\newcommand{\cardhp}[1]{
+		\node[left] at (\cardwidth-\stripwidth*.45,\cardheight-5.4*\stripwidth) {\textbf{\LARGE #1} \Health};
+}
+
+
+\newcommand{\cardimage}[1]{
+	\node at (\cardwidth*.4, \cardheight*.7) {\includegraphics[height = 2.5cm, width = 3cm, keepaspectratio]{#1}};
+}
+
+\newcommand{\cardvp}[1]{
+		\node at (\cardwidth-.7,\cardheight-.5) {\textbf{\LARGE #1\vp}};
+}
+
+\newcommand{\first}[1]{
+	\node at (.2*\cardwidth, .45*\cardheight) {\includegraphics[height=1cm]{#1}};
+}
+\newcommand{\second}[1]{
+	\node at (.4*\cardwidth, .45*\cardheight) {\includegraphics[height=1cm]{#1}};
+}
+\newcommand{\third}[1]{
+	\node at (.6*\cardwidth, .45*\cardheight) {\includegraphics[height=1cm]{#1}};
+}
+\newcommand{\fourth}[1]{
+	\node at (.8*\cardwidth, .45*\cardheight) {\includegraphics[height=1cm]{#1}};
+}
+
+\newcommand{\general}[1]{
+\ifthenelse{\equal{#1}{1}\OR \equal{#1}{2}}{\draw[thick] (-1,.8) -- (2.5, .8) -- (2.5, -1); \node at (1.25, .27) {\includegraphics[height=1cm]{Player}};}{}
+\ifthenelse{\equal{#1}{2}}{\draw[thick] (3.5,-1) -- (3.5, .8) -- (7, .8);\node at (4.75, .27) {\includegraphics[height=1cm]{Player}};}{}
+}

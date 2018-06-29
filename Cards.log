@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6500 64-bit) (preloaded format=pdflatex 2017.11.10)  27 APR 2018 10:42
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6500 64-bit) (preloaded format=pdflatex 2017.11.10)  29 JUN 2018 11:47
 entering extended mode
 **./Cards.tex
 (Cards.tex
@@ -997,8 +997,8 @@ Package grfext Info: Graphics extension search list:
 ! Missing number, treated as zero.
 <to be read again> 
                    >
-l.3 \cardcost{}{}{}
-                   
+l.3 \cardcata{}{}
+                 
 A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
 look up `weird error' in the index to The TeXbook.)
@@ -1006,8 +1006,8 @@ look up `weird error' in the index to The TeXbook.)
 ! Missing number, treated as zero.
 <to be read again> 
                    >
-l.3 \cardcost{}{}{}
-                   
+l.3 \cardcata{}{}
+                 
 A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
 look up `weird error' in the index to The TeXbook.)
@@ -1015,8 +1015,17 @@ look up `weird error' in the index to The TeXbook.)
 ! Missing number, treated as zero.
 <to be read again> 
                    >
-l.3 \cardcost{}{}{}
-                   
+l.4 \cardextra{}{}
+                  
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Missing number, treated as zero.
+<to be read again> 
+                   >
+l.4 \cardextra{}{}
+                  
 A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
 look up `weird error' in the index to The TeXbook.)
@@ -1025,334 +1034,204 @@ look up `weird error' in the index to The TeXbook.)
 File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman (RS)
 )
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 4.
+(Font)              <7> on input line 5.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 4.
-<goal.png, id=28, 513.92pt x 513.92pt>
-File: goal.png Graphic file (type png)
-<use goal.png>
-Package pdftex.def Info: goal.png  used on input line 4. on input line 4.
-Package pdftex.def Info: Requested size: 64.01242pt x 64.01242pt on input line 4.
+(Font)              <5> on input line 5.
+<catastrophe.png, id=28, 513.92pt x 513.92pt>
+File: catastrophe.png Graphic file (type png)
+<use catastrophe.png>
+Package pdftex.def Info: catastrophe.png  used on input line 5. on input line 5.
+Package pdftex.def Info: Requested size: 64.01242pt x 64.01242pt on input line 5.
+
+
+! LaTeX Error: File `' not found.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.6 \cardbiome{}
+                
+I could not locate the file with any of these extensions:
+.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPEG,.JBIG2,.JB2,.eps
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
 Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `antt' (encoding: T1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
-
-! Missing number, treated as zero.
-<to be read again> 
-                   >
-l.10 \cardcost{}{}{}
-                    
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-! Missing number, treated as zero.
-<to be read again> 
-                   >
-l.10 \cardcost{}{}{}
-                    
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-! Missing number, treated as zero.
-<to be read again> 
-                   >
-l.10 \cardcost{}{}{}
-                    
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-File: goal.png Graphic file (type png)
-<use goal.png>
-Package pdftex.def Info: goal.png  used on input line 11. on input line 11.
-Package pdftex.def Info: Requested size: 64.01242pt x 64.01242pt on input line 11.
-! Missing number, treated as zero.
-<to be read again> 
-                   >
-l.17 \cardcost{}{}{}
-                    
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-! Missing number, treated as zero.
-<to be read again> 
-                   >
-l.17 \cardcost{}{}{}
-                    
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-! Missing number, treated as zero.
-<to be read again> 
-                   >
-l.17 \cardcost{}{}{}
-                    
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-File: goal.png Graphic file (type png)
-<use goal.png>
-Package pdftex.def Info: goal.png  used on input line 18. on input line 18.
-Package pdftex.def Info: Requested size: 64.01242pt x 64.01242pt on input line 18.
-! Missing number, treated as zero.
-<to be read again> 
-                   >
-l.24 \cardcost{}{}{}
-                    
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-! Missing number, treated as zero.
-<to be read again> 
-                   >
-l.24 \cardcost{}{}{}
-                    
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-! Missing number, treated as zero.
-<to be read again> 
-                   >
-l.24 \cardcost{}{}{}
-                    
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-File: goal.png Graphic file (type png)
-<use goal.png>
-Package pdftex.def Info: goal.png  used on input line 25. on input line 25.
-Package pdftex.def Info: Requested size: 64.01242pt x 64.01242pt on input line 25.
-! Missing number, treated as zero.
-<to be read again> 
-                   >
-l.31 \cardcost{}{}{}
-                    
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-! Missing number, treated as zero.
-<to be read again> 
-                   >
-l.31 \cardcost{}{}{}
-                    
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-! Missing number, treated as zero.
-<to be read again> 
-                   >
-l.31 \cardcost{}{}{}
-                    
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-File: goal.png Graphic file (type png)
-<use goal.png>
-Package pdftex.def Info: goal.png  used on input line 32. on input line 32.
-Package pdftex.def Info: Requested size: 64.01242pt x 64.01242pt on input line 32.
-! Missing number, treated as zero.
-<to be read again> 
-                   >
-l.38 \cardcost{}{}{}
-                    
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-! Missing number, treated as zero.
-<to be read again> 
-                   >
-l.38 \cardcost{}{}{}
-                    
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-! Missing number, treated as zero.
-<to be read again> 
-                   >
-l.38 \cardcost{}{}{}
-                    
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-File: goal.png Graphic file (type png)
-<use goal.png>
-Package pdftex.def Info: goal.png  used on input line 39. on input line 39.
-Package pdftex.def Info: Requested size: 64.01242pt x 64.01242pt on input line 39.
-! Missing number, treated as zero.
-<to be read again> 
-                   >
-l.45 \cardcost{}{}{}
-                    
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-! Missing number, treated as zero.
-<to be read again> 
-                   >
-l.45 \cardcost{}{}{}
-                    
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-! Missing number, treated as zero.
-<to be read again> 
-                   >
-l.45 \cardcost{}{}{}
-                    
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-File: goal.png Graphic file (type png)
-<use goal.png>
-Package pdftex.def Info: goal.png  used on input line 46. on input line 46.
-Package pdftex.def Info: Requested size: 64.01242pt x 64.01242pt on input line 46.
-! Missing number, treated as zero.
-<to be read again> 
-                   >
-l.52 \cardcost{}{}{}
-                    
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-! Missing number, treated as zero.
-<to be read again> 
-                   >
-l.52 \cardcost{}{}{}
-                    
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-! Missing number, treated as zero.
-<to be read again> 
-                   >
-l.52 \cardcost{}{}{}
-                    
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-File: goal.png Graphic file (type png)
-<use goal.png>
-Package pdftex.def Info: goal.png  used on input line 53. on input line 53.
-Package pdftex.def Info: Requested size: 64.01242pt x 64.01242pt on input line 53.
-! Missing number, treated as zero.
-<to be read again> 
-                   >
-l.59 \cardcost{}{}{}
-                    
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-! Missing number, treated as zero.
-<to be read again> 
-                   >
-l.59 \cardcost{}{}{}
-                    
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-! Missing number, treated as zero.
-<to be read again> 
-                   >
-l.59 \cardcost{}{}{}
-                    
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-File: goal.png Graphic file (type png)
-<use goal.png>
-Package pdftex.def Info: goal.png  used on input line 60. on input line 60.
-Package pdftex.def Info: Requested size: 64.01242pt x 64.01242pt on input line 60.
-<CostR.png, id=30, 513.92pt x 513.92pt>
-File: CostR.png Graphic file (type png)
-<use CostR.png>
-Package pdftex.def Info: CostR.png  used on input line 66. on input line 66.
-Package pdftex.def Info: Requested size: 14.22498pt x 14.22636pt on input line 66.
-! Missing number, treated as zero.
-<to be read again> 
-                   >
-l.66 \cardcost{1}{}{}
-                     
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-! Missing number, treated as zero.
-<to be read again> 
-                   >
-l.66 \cardcost{1}{}{}
-                     
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 67--67
-[] \T1/DejaVuSansMono-TLF/b/n/14.4 RE-SOUR-CE
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 67--67
-[] \T1/DejaVuSansMono-TLF/b/n/14.4 RE-SOUR-CE
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 67--67
-[] \T1/DejaVuSansMono-TLF/b/n/14.4 RE-SOUR-CE
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 67--67
-[] \T1/DejaVuSansMono-TLF/b/n/14.4 RE-SOUR-CE
- []
-
-<labtrait.png, id=31, 513.92pt x 513.92pt>
-File: labtrait.png Graphic file (type png)
-<use labtrait.png>
-Package pdftex.def Info: labtrait.png  used on input line 67. on input line 67.
-Package pdftex.def Info: Requested size: 64.01242pt x 64.01242pt on input line 67.
-<gene.png, id=32, 513.92pt x 513.92pt>
+<gene.png, id=30, 513.92pt x 513.92pt>
 File: gene.png Graphic file (type png)
 <use gene.png>
-Package pdftex.def Info: gene.png  used on input line 68. on input line 68.
-Package pdftex.def Info: Requested size: 14.22498pt x 14.22636pt on input line 68.
-<trait.png, id=33, 513.92pt x 513.92pt>
+Package pdftex.def Info: gene.png  used on input line 7. on input line 7.
+Package pdftex.def Info: Requested size: 14.22498pt x 14.22636pt on input line 7.
+! Missing number, treated as zero.
+<to be read again> 
+                   >
+l.12 \cardcata{}{}
+                  
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Missing number, treated as zero.
+<to be read again> 
+                   >
+l.12 \cardcata{}{}
+                  
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Missing number, treated as zero.
+<to be read again> 
+                   >
+l.13 \cardextra{}{}
+                   
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Missing number, treated as zero.
+<to be read again> 
+                   >
+l.13 \cardextra{}{}
+                   
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 14--14
+[] \T1/DejaVuSansMono-TLF/b/n/14.4 IN-VA-SI-VE
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 14--14
+[] \T1/DejaVuSansMono-TLF/b/n/14.4 IN-VA-SI-VE
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 14--14
+[] \T1/DejaVuSansMono-TLF/b/n/14.4 IN-VA-SI-VE
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 14--14
+[] \T1/DejaVuSansMono-TLF/b/n/14.4 IN-VA-SI-VE
+ []
+
+File: catastrophe.png Graphic file (type png)
+<use catastrophe.png>
+Package pdftex.def Info: catastrophe.png  used on input line 14. on input line 14.
+Package pdftex.def Info: Requested size: 64.01242pt x 64.01242pt on input line 14.
+
+! LaTeX Error: File `' not found.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.15 \cardbiome{}
+                 
+I could not locate the file with any of these extensions:
+.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPEG,.JBIG2,.JB2,.eps
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+File: gene.png Graphic file (type png)
+<use gene.png>
+Package pdftex.def Info: gene.png  used on input line 16. on input line 16.
+Package pdftex.def Info: Requested size: 14.22498pt x 14.22636pt on input line 16.
+! Missing number, treated as zero.
+<to be read again> 
+                   >
+l.21 \cardcata{}{}
+                  
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Missing number, treated as zero.
+<to be read again> 
+                   >
+l.21 \cardcata{}{}
+                  
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Missing number, treated as zero.
+<to be read again> 
+                   >
+l.22 \cardextra{}{}
+                   
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Missing number, treated as zero.
+<to be read again> 
+                   >
+l.22 \cardextra{}{}
+                   
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 23--23
+[] \T1/DejaVuSansMono-TLF/b/n/14.4 HARSH
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 23--23
+[] \T1/DejaVuSansMono-TLF/b/n/14.4 HARSH
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 23--23
+[] \T1/DejaVuSansMono-TLF/b/n/14.4 HARSH
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 23--23
+[] \T1/DejaVuSansMono-TLF/b/n/14.4 HARSH
+ []
+
+File: catastrophe.png Graphic file (type png)
+<use catastrophe.png>
+Package pdftex.def Info: catastrophe.png  used on input line 23. on input line 23.
+Package pdftex.def Info: Requested size: 64.01242pt x 64.01242pt on input line 23.
+
+! LaTeX Error: File `' not found.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.24 \cardbiome{}
+                 
+I could not locate the file with any of these extensions:
+.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPEG,.JBIG2,.JB2,.eps
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+<trait.png, id=31, 513.92pt x 513.92pt>
 File: trait.png Graphic file (type png)
 <use trait.png>
-Package pdftex.def Info: trait.png  used on input line 68. on input line 68.
-Package pdftex.def Info: Requested size: 14.22498pt x 14.22636pt on input line 68.
-File: CostR.png Graphic file (type png)
-<use CostR.png>
-Package pdftex.def Info: CostR.png  used on input line 73. on input line 73.
-Package pdftex.def Info: Requested size: 14.22498pt x 14.22636pt on input line 73.
+Package pdftex.def Info: trait.png  used on input line 25. on input line 25.
+Package pdftex.def Info: Requested size: 14.22498pt x 14.22636pt on input line 25.
+File: gene.png Graphic file (type png)
+<use gene.png>
+Package pdftex.def Info: gene.png  used on input line 25. on input line 25.
+Package pdftex.def Info: Requested size: 14.22498pt x 14.22636pt on input line 25.
 ! Missing number, treated as zero.
 <to be read again> 
                    >
-l.73 \cardcost{1}{}{}
-                     
+l.30 \cardcata{}{}
+                  
 A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
 look up `weird error' in the index to The TeXbook.)
@@ -1360,215 +1239,610 @@ look up `weird error' in the index to The TeXbook.)
 ! Missing number, treated as zero.
 <to be read again> 
                    >
-l.73 \cardcost{1}{}{}
-                     
+l.30 \cardcata{}{}
+                  
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Missing number, treated as zero.
+<to be read again> 
+                   >
+l.31 \cardextra{}{}
+                   
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Missing number, treated as zero.
+<to be read again> 
+                   >
+l.31 \cardextra{}{}
+                   
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+File: catastrophe.png Graphic file (type png)
+<use catastrophe.png>
+Package pdftex.def Info: catastrophe.png  used on input line 32. on input line 32.
+Package pdftex.def Info: Requested size: 64.01242pt x 64.01242pt on input line 32.
+
+! LaTeX Error: File `' not found.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.33 \cardbiome{}
+                 
+I could not locate the file with any of these extensions:
+.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPEG,.JBIG2,.JB2,.eps
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+File: gene.png Graphic file (type png)
+<use gene.png>
+Package pdftex.def Info: gene.png  used on input line 34. on input line 34.
+Package pdftex.def Info: Requested size: 14.22498pt x 14.22636pt on input line 34.
+File: gene.png Graphic file (type png)
+<use gene.png>
+Package pdftex.def Info: gene.png  used on input line 34. on input line 34.
+Package pdftex.def Info: Requested size: 14.22498pt x 14.22636pt on input line 34.
+! Missing number, treated as zero.
+<to be read again> 
+                   >
+l.39 \cardcata{}{}
+                  
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Missing number, treated as zero.
+<to be read again> 
+                   >
+l.39 \cardcata{}{}
+                  
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Missing number, treated as zero.
+<to be read again> 
+                   >
+l.40 \cardextra{}{}
+                   
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Missing number, treated as zero.
+<to be read again> 
+                   >
+l.40 \cardextra{}{}
+                   
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+File: catastrophe.png Graphic file (type png)
+<use catastrophe.png>
+Package pdftex.def Info: catastrophe.png  used on input line 41. on input line 41.
+Package pdftex.def Info: Requested size: 64.01242pt x 64.01242pt on input line 41.
+
+! LaTeX Error: File `' not found.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.42 \cardbiome{}
+                 
+I could not locate the file with any of these extensions:
+.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPEG,.JBIG2,.JB2,.eps
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+File: gene.png Graphic file (type png)
+<use gene.png>
+Package pdftex.def Info: gene.png  used on input line 43. on input line 43.
+Package pdftex.def Info: Requested size: 14.22498pt x 14.22636pt on input line 43.
+File: gene.png Graphic file (type png)
+<use gene.png>
+Package pdftex.def Info: gene.png  used on input line 43. on input line 43.
+Package pdftex.def Info: Requested size: 14.22498pt x 14.22636pt on input line 43.
+! Missing number, treated as zero.
+<to be read again> 
+                   >
+l.48 \cardcata{}{}
+                  
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Missing number, treated as zero.
+<to be read again> 
+                   >
+l.48 \cardcata{}{}
+                  
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Missing number, treated as zero.
+<to be read again> 
+                   >
+l.49 \cardextra{}{}
+                   
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Missing number, treated as zero.
+<to be read again> 
+                   >
+l.49 \cardextra{}{}
+                   
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+File: catastrophe.png Graphic file (type png)
+<use catastrophe.png>
+Package pdftex.def Info: catastrophe.png  used on input line 50. on input line 50.
+Package pdftex.def Info: Requested size: 64.01242pt x 64.01242pt on input line 50.
+
+! LaTeX Error: File `' not found.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.51 \cardbiome{}
+                 
+I could not locate the file with any of these extensions:
+.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPEG,.JBIG2,.JB2,.eps
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+File: gene.png Graphic file (type png)
+<use gene.png>
+Package pdftex.def Info: gene.png  used on input line 52. on input line 52.
+Package pdftex.def Info: Requested size: 14.22498pt x 14.22636pt on input line 52.
+! Missing number, treated as zero.
+<to be read again> 
+                   >
+l.57 \cardcata{}{}
+                  
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Missing number, treated as zero.
+<to be read again> 
+                   >
+l.57 \cardcata{}{}
+                  
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Missing number, treated as zero.
+<to be read again> 
+                   >
+l.58 \cardextra{}{}
+                   
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Missing number, treated as zero.
+<to be read again> 
+                   >
+l.58 \cardextra{}{}
+                   
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+File: catastrophe.png Graphic file (type png)
+<use catastrophe.png>
+Package pdftex.def Info: catastrophe.png  used on input line 59. on input line 59.
+Package pdftex.def Info: Requested size: 64.01242pt x 64.01242pt on input line 59.
+
+! LaTeX Error: File `' not found.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.60 \cardbiome{}
+                 
+I could not locate the file with any of these extensions:
+.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPEG,.JBIG2,.JB2,.eps
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+File: gene.png Graphic file (type png)
+<use gene.png>
+Package pdftex.def Info: gene.png  used on input line 61. on input line 61.
+Package pdftex.def Info: Requested size: 14.22498pt x 14.22636pt on input line 61.
+! Missing number, treated as zero.
+<to be read again> 
+                   >
+l.66 \cardcata{}{}
+                  
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Missing number, treated as zero.
+<to be read again> 
+                   >
+l.66 \cardcata{}{}
+                  
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Missing number, treated as zero.
+<to be read again> 
+                   >
+l.67 \cardextra{}{}
+                   
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Missing number, treated as zero.
+<to be read again> 
+                   >
+l.67 \cardextra{}{}
+                   
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+File: catastrophe.png Graphic file (type png)
+<use catastrophe.png>
+Package pdftex.def Info: catastrophe.png  used on input line 68. on input line 68.
+Package pdftex.def Info: Requested size: 64.01242pt x 64.01242pt on input line 68.
+
+! LaTeX Error: File `' not found.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.69 \cardbiome{}
+                 
+I could not locate the file with any of these extensions:
+.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPEG,.JBIG2,.JB2,.eps
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+File: trait.png Graphic file (type png)
+<use trait.png>
+Package pdftex.def Info: trait.png  used on input line 70. on input line 70.
+Package pdftex.def Info: Requested size: 14.22498pt x 14.22636pt on input line 70.
+! Missing number, treated as zero.
+<to be read again> 
+                   >
+l.75 \cardcata{}{}
+                  
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Missing number, treated as zero.
+<to be read again> 
+                   >
+l.75 \cardcata{}{}
+                  
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Missing number, treated as zero.
+<to be read again> 
+                   >
+l.76 \cardextra{}{}
+                   
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Missing number, treated as zero.
+<to be read again> 
+                   >
+l.76 \cardextra{}{}
+                   
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+File: catastrophe.png Graphic file (type png)
+<use catastrophe.png>
+Package pdftex.def Info: catastrophe.png  used on input line 77. on input line 77.
+Package pdftex.def Info: Requested size: 64.01242pt x 64.01242pt on input line 77.
+
+! LaTeX Error: File `' not found.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.78 \cardbiome{}
+                 
+I could not locate the file with any of these extensions:
+.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPEG,.JBIG2,.JB2,.eps
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+File: gene.png Graphic file (type png)
+<use gene.png>
+Package pdftex.def Info: gene.png  used on input line 79. on input line 79.
+Package pdftex.def Info: Requested size: 14.22498pt x 14.22636pt on input line 79.
+! Missing number, treated as zero.
+<to be read again> 
+                   >
+l.84 \cardcata{}{}
+                  
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Missing number, treated as zero.
+<to be read again> 
+                   >
+l.84 \cardcata{}{}
+                  
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Missing number, treated as zero.
+<to be read again> 
+                   >
+l.85 \cardextra{}{}
+                   
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Missing number, treated as zero.
+<to be read again> 
+                   >
+l.85 \cardextra{}{}
+                   
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+File: catastrophe.png Graphic file (type png)
+<use catastrophe.png>
+Package pdftex.def Info: catastrophe.png  used on input line 86. on input line 86.
+Package pdftex.def Info: Requested size: 64.01242pt x 64.01242pt on input line 86.
+
+! LaTeX Error: File `' not found.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.87 \cardbiome{}
+                 
+I could not locate the file with any of these extensions:
+.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPEG,.JBIG2,.JB2,.eps
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+File: gene.png Graphic file (type png)
+<use gene.png>
+Package pdftex.def Info: gene.png  used on input line 88. on input line 88.
+Package pdftex.def Info: Requested size: 14.22498pt x 14.22636pt on input line 88.
+! Missing number, treated as zero.
+<to be read again> 
+                   >
+l.93 \cardcata{}{}
+                  
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Missing number, treated as zero.
+<to be read again> 
+                   >
+l.93 \cardcata{}{}
+                  
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Missing number, treated as zero.
+<to be read again> 
+                   >
+l.94 \cardextra{}{}
+                   
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Missing number, treated as zero.
+<to be read again> 
+                   >
+l.94 \cardextra{}{}
+                   
 A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
 look up `weird error' in the index to The TeXbook.)
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 74--74
+Underfull \hbox (badness 10000) in paragraph at lines 95--95
 []
  []
 
 
-Overfull \hbox (15.7047pt too wide) in paragraph at lines 74--74
-\T1/DejaVuSansMono-TLF/b/n/14.4 IN-CI-NE-RA-TOR 
+Overfull \hbox (15.27269pt too wide) in paragraph at lines 95--95
+\T1/DejaVuSansMono-TLF/b/n/14.4 EX-TINC-TI-ON1 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 74--74
+Underfull \hbox (badness 10000) in paragraph at lines 95--95
 []
  []
 
 
-Overfull \hbox (15.7047pt too wide) in paragraph at lines 74--74
-\T1/DejaVuSansMono-TLF/b/n/14.4 IN-CI-NE-RA-TOR 
+Overfull \hbox (15.27269pt too wide) in paragraph at lines 95--95
+\T1/DejaVuSansMono-TLF/b/n/14.4 EX-TINC-TI-ON1 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 74--74
+Underfull \hbox (badness 10000) in paragraph at lines 95--95
 []
  []
 
 
-Overfull \hbox (15.7047pt too wide) in paragraph at lines 74--74
-\T1/DejaVuSansMono-TLF/b/n/14.4 IN-CI-NE-RA-TOR 
+Overfull \hbox (15.27269pt too wide) in paragraph at lines 95--95
+\T1/DejaVuSansMono-TLF/b/n/14.4 EX-TINC-TI-ON1 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 74--74
+Underfull \hbox (badness 10000) in paragraph at lines 95--95
 []
  []
 
 
-Overfull \hbox (15.7047pt too wide) in paragraph at lines 74--74
-\T1/DejaVuSansMono-TLF/b/n/14.4 IN-CI-NE-RA-TOR 
+Overfull \hbox (15.27269pt too wide) in paragraph at lines 95--95
+\T1/DejaVuSansMono-TLF/b/n/14.4 EX-TINC-TI-ON1 
  []
 
-<labfood.png, id=34, 513.92pt x 513.92pt>
-File: labfood.png Graphic file (type png)
-<use labfood.png>
-Package pdftex.def Info: labfood.png  used on input line 74. on input line 74.
-Package pdftex.def Info: Requested size: 64.01242pt x 64.01242pt on input line 74.
-File: gene.png Graphic file (type png)
-<use gene.png>
-Package pdftex.def Info: gene.png  used on input line 75. on input line 75.
-Package pdftex.def Info: Requested size: 14.22498pt x 14.22636pt on input line 75.
-File: CostR.png Graphic file (type png)
-<use CostR.png>
-Package pdftex.def Info: CostR.png  used on input line 80. on input line 80.
-Package pdftex.def Info: Requested size: 14.22498pt x 14.22636pt on input line 80.
-! Missing number, treated as zero.
-<to be read again> 
-                   >
-l.80 \cardcost{1}{}{}
-                     
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-! Missing number, treated as zero.
-<to be read again> 
-                   >
-l.80 \cardcost{1}{}{}
-                     
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 81--81
-[] \T1/DejaVuSansMono-TLF/b/n/14.4 BO-NUS
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 81--81
-[] \T1/DejaVuSansMono-TLF/b/n/14.4 BO-NUS
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 81--81
-[] \T1/DejaVuSansMono-TLF/b/n/14.4 BO-NUS
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 81--81
-[] \T1/DejaVuSansMono-TLF/b/n/14.4 BO-NUS
- []
-
-<stat.png, id=35, 513.92pt x 513.92pt>
-File: stat.png Graphic file (type png)
-<use stat.png>
-Package pdftex.def Info: stat.png  used on input line 81. on input line 81.
-Package pdftex.def Info: Requested size: 64.01242pt x 64.01242pt on input line 81.
-File: gene.png Graphic file (type png)
-<use gene.png>
-Package pdftex.def Info: gene.png  used on input line 82. on input line 82.
-Package pdftex.def Info: Requested size: 14.22498pt x 14.22636pt on input line 82.
-File: gene.png Graphic file (type png)
-<use gene.png>
-Package pdftex.def Info: gene.png  used on input line 82. on input line 82.
-Package pdftex.def Info: Requested size: 14.22498pt x 14.22636pt on input line 82.
-File: CostR.png Graphic file (type png)
-<use CostR.png>
-Package pdftex.def Info: CostR.png  used on input line 87. on input line 87.
-Package pdftex.def Info: Requested size: 14.22498pt x 14.22636pt on input line 87.
-! Missing number, treated as zero.
-<to be read again> 
-                   >
-l.87 \cardcost{1}{}{}
-                     
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-! Missing number, treated as zero.
-<to be read again> 
-                   >
-l.87 \cardcost{1}{}{}
-                     
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 88--88
-[] \T1/DejaVuSansMono-TLF/b/n/14.4 MAT-TER
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 88--88
-[] \T1/DejaVuSansMono-TLF/b/n/14.4 MAT-TER
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 88--88
-[] \T1/DejaVuSansMono-TLF/b/n/14.4 MAT-TER
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 88--88
-[] \T1/DejaVuSansMono-TLF/b/n/14.4 MAT-TER
- []
-
-<labbag.png, id=36, 513.92pt x 513.92pt>
-File: labbag.png Graphic file (type png)
-<use labbag.png>
-Package pdftex.def Info: labbag.png  used on input line 88. on input line 88.
-Package pdftex.def Info: Requested size: 64.01242pt x 64.01242pt on input line 88.
-File: gene.png Graphic file (type png)
-<use gene.png>
-Package pdftex.def Info: gene.png  used on input line 89. on input line 89.
-Package pdftex.def Info: Requested size: 14.22498pt x 14.22636pt on input line 89.
-File: gene.png Graphic file (type png)
-<use gene.png>
-Package pdftex.def Info: gene.png  used on input line 89. on input line 89.
-Package pdftex.def Info: Requested size: 14.22498pt x 14.22636pt on input line 89.
-File: gene.png Graphic file (type png)
-<use gene.png>
-Package pdftex.def Info: gene.png  used on input line 89. on input line 89.
-Package pdftex.def Info: Requested size: 14.22498pt x 14.22636pt on input line 89.
-File: CostR.png Graphic file (type png)
-<use CostR.png>
-Package pdftex.def Info: CostR.png  used on input line 94. on input line 94.
-Package pdftex.def Info: Requested size: 14.22498pt x 14.22636pt on input line 94.
-! Missing number, treated as zero.
-<to be read again> 
-                   >
-l.94 \cardcost{2}{}{}
-                     
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-! Missing number, treated as zero.
-<to be read again> 
-                   >
-l.94 \cardcost{2}{}{}
-                     
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-<lab.png, id=37, 513.92pt x 513.92pt>
-File: lab.png Graphic file (type png)
-<use lab.png>
-Package pdftex.def Info: lab.png  used on input line 95. on input line 95.
+<extinction.png, id=32, 513.92pt x 513.92pt>
+File: extinction.png Graphic file (type png)
+<use extinction.png>
+Package pdftex.def Info: extinction.png  used on input line 95. on input line 95.
 Package pdftex.def Info: Requested size: 64.01242pt x 64.01242pt on input line 95.
+
+! LaTeX Error: File `' not found.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.96 \cardbiome{}
+                 
+I could not locate the file with any of these extensions:
+.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPEG,.JBIG2,.JB2,.eps
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+File: trait.png Graphic file (type png)
+<use trait.png>
+Package pdftex.def Info: trait.png  used on input line 97. on input line 97.
+Package pdftex.def Info: Requested size: 14.22498pt x 14.22636pt on input line 97.
+! Missing number, treated as zero.
+<to be read again> 
+                   >
+l.102 \cardcata{}{}
+                   
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Missing number, treated as zero.
+<to be read again> 
+                   >
+l.102 \cardcata{}{}
+                   
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Missing number, treated as zero.
+<to be read again> 
+                   >
+l.103 \cardextra{}{}
+                    
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Missing number, treated as zero.
+<to be read again> 
+                   >
+l.103 \cardextra{}{}
+                    
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 104--104
+[]
+ []
+
+
+Overfull \hbox (15.7047pt too wide) in paragraph at lines 104--104
+\T1/DejaVuSansMono-TLF/b/n/14.4 EX-TINC-TI-ON2 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 104--104
+[]
+ []
+
+
+Overfull \hbox (15.7047pt too wide) in paragraph at lines 104--104
+\T1/DejaVuSansMono-TLF/b/n/14.4 EX-TINC-TI-ON2 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 104--104
+[]
+ []
+
+
+Overfull \hbox (15.7047pt too wide) in paragraph at lines 104--104
+\T1/DejaVuSansMono-TLF/b/n/14.4 EX-TINC-TI-ON2 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 104--104
+[]
+ []
+
+
+Overfull \hbox (15.7047pt too wide) in paragraph at lines 104--104
+\T1/DejaVuSansMono-TLF/b/n/14.4 EX-TINC-TI-ON2 
+ []
+
+File: extinction.png Graphic file (type png)
+<use extinction.png>
+Package pdftex.def Info: extinction.png  used on input line 104. on input line 104.
+Package pdftex.def Info: Requested size: 64.01242pt x 64.01242pt on input line 104.
+
+! LaTeX Error: File `' not found.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.105 \cardbiome{}
+                  
+I could not locate the file with any of these extensions:
+.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPEG,.JBIG2,.JB2,.eps
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
 File: gene.png Graphic file (type png)
 <use gene.png>
-Package pdftex.def Info: gene.png  used on input line 96. on input line 96.
-Package pdftex.def Info: Requested size: 14.22498pt x 14.22636pt on input line 96.
-File: CostR.png Graphic file (type png)
-<use CostR.png>
-Package pdftex.def Info: CostR.png  used on input line 101. on input line 101.
-Package pdftex.def Info: Requested size: 14.22498pt x 14.22636pt on input line 101.
+Package pdftex.def Info: gene.png  used on input line 106. on input line 106.
+Package pdftex.def Info: Requested size: 14.22498pt x 14.22636pt on input line 106.
 ! Missing number, treated as zero.
 <to be read again> 
                    >
-l.101 \cardcost{2}{}{}
-                      
+l.111 \cardcata{}{}
+                   
 A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
 look up `weird error' in the index to The TeXbook.)
@@ -1576,99 +1850,101 @@ look up `weird error' in the index to The TeXbook.)
 ! Missing number, treated as zero.
 <to be read again> 
                    >
-l.101 \cardcost{2}{}{}
-                      
+l.111 \cardcata{}{}
+                   
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Missing number, treated as zero.
+<to be read again> 
+                   >
+l.112 \cardextra{}{}
+                    
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Missing number, treated as zero.
+<to be read again> 
+                   >
+l.112 \cardextra{}{}
+                    
 A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
 look up `weird error' in the index to The TeXbook.)
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 102--102
-[] \T1/DejaVuSansMono-TLF/b/n/14.4 MU-TA-TI-ON
+Underfull \hbox (badness 10000) in paragraph at lines 113--113
+[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 102--102
-[] \T1/DejaVuSansMono-TLF/b/n/14.4 MU-TA-TI-ON
+Overfull \hbox (15.7047pt too wide) in paragraph at lines 113--113
+\T1/DejaVuSansMono-TLF/b/n/14.4 EX-TINC-TI-ON3 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 102--102
-[] \T1/DejaVuSansMono-TLF/b/n/14.4 MU-TA-TI-ON
+Underfull \hbox (badness 10000) in paragraph at lines 113--113
+[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 102--102
-[] \T1/DejaVuSansMono-TLF/b/n/14.4 MU-TA-TI-ON
+Overfull \hbox (15.7047pt too wide) in paragraph at lines 113--113
+\T1/DejaVuSansMono-TLF/b/n/14.4 EX-TINC-TI-ON3 
  []
 
-File: lab.png Graphic file (type png)
-<use lab.png>
-Package pdftex.def Info: lab.png  used on input line 102. on input line 102.
-Package pdftex.def Info: Requested size: 64.01242pt x 64.01242pt on input line 102.
+
+Underfull \hbox (badness 10000) in paragraph at lines 113--113
+[]
+ []
+
+
+Overfull \hbox (15.7047pt too wide) in paragraph at lines 113--113
+\T1/DejaVuSansMono-TLF/b/n/14.4 EX-TINC-TI-ON3 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 113--113
+[]
+ []
+
+
+Overfull \hbox (15.7047pt too wide) in paragraph at lines 113--113
+\T1/DejaVuSansMono-TLF/b/n/14.4 EX-TINC-TI-ON3 
+ []
+
+File: extinction.png Graphic file (type png)
+<use extinction.png>
+Package pdftex.def Info: extinction.png  used on input line 113. on input line 113.
+Package pdftex.def Info: Requested size: 64.01242pt x 64.01242pt on input line 113.
+
+! LaTeX Error: File `' not found.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.114 \cardbiome{}
+                  
+I could not locate the file with any of these extensions:
+.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPEG,.JBIG2,.JB2,.eps
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
 File: gene.png Graphic file (type png)
 <use gene.png>
-Package pdftex.def Info: gene.png  used on input line 103. on input line 103.
-Package pdftex.def Info: Requested size: 14.22498pt x 14.22636pt on input line 103.
-File: CostR.png Graphic file (type png)
-<use CostR.png>
-Package pdftex.def Info: CostR.png  used on input line 108. on input line 108.
-Package pdftex.def Info: Requested size: 14.22498pt x 14.22636pt on input line 108.
-! Missing number, treated as zero.
-<to be read again> 
-                   >
-l.108 \cardcost{2}{}{}
-                      
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-! Missing number, treated as zero.
-<to be read again> 
-                   >
-l.108 \cardcost{2}{}{}
-                      
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 109--109
-[] \T1/DejaVuSansMono-TLF/b/n/14.4 MU-TA-TI-ON
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 109--109
-[] \T1/DejaVuSansMono-TLF/b/n/14.4 MU-TA-TI-ON
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 109--109
-[] \T1/DejaVuSansMono-TLF/b/n/14.4 MU-TA-TI-ON
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 109--109
-[] \T1/DejaVuSansMono-TLF/b/n/14.4 MU-TA-TI-ON
- []
-
-File: lab.png Graphic file (type png)
-<use lab.png>
-Package pdftex.def Info: lab.png  used on input line 109. on input line 109.
-Package pdftex.def Info: Requested size: 64.01242pt x 64.01242pt on input line 109.
+Package pdftex.def Info: gene.png  used on input line 115. on input line 115.
+Package pdftex.def Info: Requested size: 14.22498pt x 14.22636pt on input line 115.
 File: gene.png Graphic file (type png)
 <use gene.png>
-Package pdftex.def Info: gene.png  used on input line 110. on input line 110.
-Package pdftex.def Info: Requested size: 14.22498pt x 14.22636pt on input line 110.
-File: CostR.png Graphic file (type png)
-<use CostR.png>
-Package pdftex.def Info: CostR.png  used on input line 115. on input line 115.
+Package pdftex.def Info: gene.png  used on input line 115. on input line 115.
 Package pdftex.def Info: Requested size: 14.22498pt x 14.22636pt on input line 115.
 ! Missing number, treated as zero.
 <to be read again> 
                    >
-l.115 \cardcost{2}{}{}
-                      
+l.120 \cardcata{}{}
+                   
 A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
 look up `weird error' in the index to The TeXbook.)
@@ -1676,57 +1952,8 @@ look up `weird error' in the index to The TeXbook.)
 ! Missing number, treated as zero.
 <to be read again> 
                    >
-l.115 \cardcost{2}{}{}
-                      
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 116--116
-[] \T1/DejaVuSansMono-TLF/b/n/14.4 MU-TA-TI-ON
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 116--116
-[] \T1/DejaVuSansMono-TLF/b/n/14.4 MU-TA-TI-ON
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 116--116
-[] \T1/DejaVuSansMono-TLF/b/n/14.4 MU-TA-TI-ON
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 116--116
-[] \T1/DejaVuSansMono-TLF/b/n/14.4 MU-TA-TI-ON
- []
-
-File: lab.png Graphic file (type png)
-<use lab.png>
-Package pdftex.def Info: lab.png  used on input line 116. on input line 116.
-Package pdftex.def Info: Requested size: 64.01242pt x 64.01242pt on input line 116.
-File: gene.png Graphic file (type png)
-<use gene.png>
-Package pdftex.def Info: gene.png  used on input line 117. on input line 117.
-Package pdftex.def Info: Requested size: 14.22498pt x 14.22636pt on input line 117.
-File: trait.png Graphic file (type png)
-<use trait.png>
-Package pdftex.def Info: trait.png  used on input line 117. on input line 117.
-Package pdftex.def Info: Requested size: 14.22498pt x 14.22636pt on input line 117.
-File: trait.png Graphic file (type png)
-<use trait.png>
-Package pdftex.def Info: trait.png  used on input line 117. on input line 117.
-Package pdftex.def Info: Requested size: 14.22498pt x 14.22636pt on input line 117.
-File: CostR.png Graphic file (type png)
-<use CostR.png>
-Package pdftex.def Info: CostR.png  used on input line 122. on input line 122.
-Package pdftex.def Info: Requested size: 14.22498pt x 14.22636pt on input line 122.
-! Missing number, treated as zero.
-<to be read again> 
-                   >
-l.122 \cardcost{2}{}{}
-                      
+l.120 \cardcata{}{}
+                   
 A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
 look up `weird error' in the index to The TeXbook.)
@@ -1734,36 +1961,79 @@ look up `weird error' in the index to The TeXbook.)
 ! Missing number, treated as zero.
 <to be read again> 
                    >
-l.122 \cardcost{2}{}{}
-                      
+l.121 \cardextra{}{}
+                    
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Missing number, treated as zero.
+<to be read again> 
+                   >
+l.121 \cardextra{}{}
+                    
 A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
 look up `weird error' in the index to The TeXbook.)
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 123--123
-[] \T1/DejaVuSansMono-TLF/b/n/14.4 MU-TA-TI-ON
+Underfull \hbox (badness 10000) in paragraph at lines 122--122
+[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 123--123
-[] \T1/DejaVuSansMono-TLF/b/n/14.4 MU-TA-TI-ON
+Overfull \hbox (15.27269pt too wide) in paragraph at lines 122--122
+\T1/DejaVuSansMono-TLF/b/n/14.4 EX-TINC-TI-ON4 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 123--123
-[] \T1/DejaVuSansMono-TLF/b/n/14.4 MU-TA-TI-ON
+Underfull \hbox (badness 10000) in paragraph at lines 122--122
+[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 123--123
-[] \T1/DejaVuSansMono-TLF/b/n/14.4 MU-TA-TI-ON
+Overfull \hbox (15.27269pt too wide) in paragraph at lines 122--122
+\T1/DejaVuSansMono-TLF/b/n/14.4 EX-TINC-TI-ON4 
  []
 
-File: lab.png Graphic file (type png)
-<use lab.png>
-Package pdftex.def Info: lab.png  used on input line 123. on input line 123.
-Package pdftex.def Info: Requested size: 64.01242pt x 64.01242pt on input line 123.
+
+Underfull \hbox (badness 10000) in paragraph at lines 122--122
+[]
+ []
+
+
+Overfull \hbox (15.27269pt too wide) in paragraph at lines 122--122
+\T1/DejaVuSansMono-TLF/b/n/14.4 EX-TINC-TI-ON4 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 122--122
+[]
+ []
+
+
+Overfull \hbox (15.27269pt too wide) in paragraph at lines 122--122
+\T1/DejaVuSansMono-TLF/b/n/14.4 EX-TINC-TI-ON4 
+ []
+
+File: extinction.png Graphic file (type png)
+<use extinction.png>
+Package pdftex.def Info: extinction.png  used on input line 122. on input line 122.
+Package pdftex.def Info: Requested size: 64.01242pt x 64.01242pt on input line 122.
+
+! LaTeX Error: File `' not found.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.123 \cardbiome{}
+                  
+I could not locate the file with any of these extensions:
+.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPEG,.JBIG2,.JB2,.eps
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
 File: gene.png Graphic file (type png)
 <use gene.png>
 Package pdftex.def Info: gene.png  used on input line 124. on input line 124.
@@ -1772,15 +2042,11 @@ File: gene.png Graphic file (type png)
 <use gene.png>
 Package pdftex.def Info: gene.png  used on input line 124. on input line 124.
 Package pdftex.def Info: Requested size: 14.22498pt x 14.22636pt on input line 124.
-File: CostR.png Graphic file (type png)
-<use CostR.png>
-Package pdftex.def Info: CostR.png  used on input line 129. on input line 129.
-Package pdftex.def Info: Requested size: 14.22498pt x 14.22636pt on input line 129.
 ! Missing number, treated as zero.
 <to be read again> 
                    >
-l.129 \cardcost{2}{}{}
-                      
+l.129 \cardcata{}{}
+                   
 A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
 look up `weird error' in the index to The TeXbook.)
@@ -1788,49 +2054,8 @@ look up `weird error' in the index to The TeXbook.)
 ! Missing number, treated as zero.
 <to be read again> 
                    >
-l.129 \cardcost{2}{}{}
-                      
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 130--130
-[] \T1/DejaVuSansMono-TLF/b/n/14.4 MU-TA-TI-ON
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 130--130
-[] \T1/DejaVuSansMono-TLF/b/n/14.4 MU-TA-TI-ON
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 130--130
-[] \T1/DejaVuSansMono-TLF/b/n/14.4 MU-TA-TI-ON
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 130--130
-[] \T1/DejaVuSansMono-TLF/b/n/14.4 MU-TA-TI-ON
- []
-
-File: lab.png Graphic file (type png)
-<use lab.png>
-Package pdftex.def Info: lab.png  used on input line 130. on input line 130.
-Package pdftex.def Info: Requested size: 64.01242pt x 64.01242pt on input line 130.
-File: gene.png Graphic file (type png)
-<use gene.png>
-Package pdftex.def Info: gene.png  used on input line 131. on input line 131.
-Package pdftex.def Info: Requested size: 14.22498pt x 14.22636pt on input line 131.
-File: CostR.png Graphic file (type png)
-<use CostR.png>
-Package pdftex.def Info: CostR.png  used on input line 136. on input line 136.
-Package pdftex.def Info: Requested size: 14.22498pt x 14.22636pt on input line 136.
-! Missing number, treated as zero.
-<to be read again> 
-                   >
-l.136 \cardcost{2}{}{}
-                      
+l.129 \cardcata{}{}
+                   
 A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
 look up `weird error' in the index to The TeXbook.)
@@ -1838,57 +2063,8 @@ look up `weird error' in the index to The TeXbook.)
 ! Missing number, treated as zero.
 <to be read again> 
                    >
-l.136 \cardcost{2}{}{}
-                      
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 137--137
-[] \T1/DejaVuSansMono-TLF/b/n/14.4 MU-TA-TI-ON
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 137--137
-[] \T1/DejaVuSansMono-TLF/b/n/14.4 MU-TA-TI-ON
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 137--137
-[] \T1/DejaVuSansMono-TLF/b/n/14.4 MU-TA-TI-ON
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 137--137
-[] \T1/DejaVuSansMono-TLF/b/n/14.4 MU-TA-TI-ON
- []
-
-File: lab.png Graphic file (type png)
-<use lab.png>
-Package pdftex.def Info: lab.png  used on input line 137. on input line 137.
-Package pdftex.def Info: Requested size: 64.01242pt x 64.01242pt on input line 137.
-File: gene.png Graphic file (type png)
-<use gene.png>
-Package pdftex.def Info: gene.png  used on input line 138. on input line 138.
-Package pdftex.def Info: Requested size: 14.22498pt x 14.22636pt on input line 138.
-File: gene.png Graphic file (type png)
-<use gene.png>
-Package pdftex.def Info: gene.png  used on input line 138. on input line 138.
-Package pdftex.def Info: Requested size: 14.22498pt x 14.22636pt on input line 138.
-File: trait.png Graphic file (type png)
-<use trait.png>
-Package pdftex.def Info: trait.png  used on input line 138. on input line 138.
-Package pdftex.def Info: Requested size: 14.22498pt x 14.22636pt on input line 138.
-File: CostR.png Graphic file (type png)
-<use CostR.png>
-Package pdftex.def Info: CostR.png  used on input line 143. on input line 143.
-Package pdftex.def Info: Requested size: 14.22498pt x 14.22636pt on input line 143.
-! Missing number, treated as zero.
-<to be read again> 
-                   >
-l.143 \cardcost{2}{}{}
-                      
+l.130 \cardextra{}{}
+                    
 A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
 look up `weird error' in the index to The TeXbook.)
@@ -1896,119 +2072,75 @@ look up `weird error' in the index to The TeXbook.)
 ! Missing number, treated as zero.
 <to be read again> 
                    >
-l.143 \cardcost{2}{}{}
-                      
+l.130 \cardextra{}{}
+                    
 A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
 look up `weird error' in the index to The TeXbook.)
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 144--144
-[] \T1/DejaVuSansMono-TLF/b/n/14.4 MU-TA-TI-ON
+Underfull \hbox (badness 10000) in paragraph at lines 131--131
+[] \T1/DejaVuSansMono-TLF/b/n/14.4 TRIG-GER
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 144--144
-[] \T1/DejaVuSansMono-TLF/b/n/14.4 MU-TA-TI-ON
+Overfull \hbox (7.03447pt too wide) in paragraph at lines 131--131
+\T1/DejaVuSansMono-TLF/b/n/14.4 EX-TINC-TI-ON 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 144--144
-[] \T1/DejaVuSansMono-TLF/b/n/14.4 MU-TA-TI-ON
+Underfull \hbox (badness 10000) in paragraph at lines 131--131
+[] \T1/DejaVuSansMono-TLF/b/n/14.4 TRIG-GER
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 144--144
-[] \T1/DejaVuSansMono-TLF/b/n/14.4 MU-TA-TI-ON
+Overfull \hbox (7.03447pt too wide) in paragraph at lines 131--131
+\T1/DejaVuSansMono-TLF/b/n/14.4 EX-TINC-TI-ON 
  []
 
-File: lab.png Graphic file (type png)
-<use lab.png>
-Package pdftex.def Info: lab.png  used on input line 144. on input line 144.
-Package pdftex.def Info: Requested size: 64.01242pt x 64.01242pt on input line 144.
-File: gene.png Graphic file (type png)
-<use gene.png>
-Package pdftex.def Info: gene.png  used on input line 145. on input line 145.
-Package pdftex.def Info: Requested size: 14.22498pt x 14.22636pt on input line 145.
-File: gene.png Graphic file (type png)
-<use gene.png>
-Package pdftex.def Info: gene.png  used on input line 145. on input line 145.
-Package pdftex.def Info: Requested size: 14.22498pt x 14.22636pt on input line 145.
-File: CostR.png Graphic file (type png)
-<use CostR.png>
-Package pdftex.def Info: CostR.png  used on input line 150. on input line 150.
-Package pdftex.def Info: Requested size: 14.22498pt x 14.22636pt on input line 150.
+
+Underfull \hbox (badness 10000) in paragraph at lines 131--131
+[] \T1/DejaVuSansMono-TLF/b/n/14.4 TRIG-GER
+ []
+
+
+Overfull \hbox (7.03447pt too wide) in paragraph at lines 131--131
+\T1/DejaVuSansMono-TLF/b/n/14.4 EX-TINC-TI-ON 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 131--131
+[] \T1/DejaVuSansMono-TLF/b/n/14.4 TRIG-GER
+ []
+
+
+Overfull \hbox (7.03447pt too wide) in paragraph at lines 131--131
+\T1/DejaVuSansMono-TLF/b/n/14.4 EX-TINC-TI-ON 
+ []
+
+File: extinction.png Graphic file (type png)
+<use extinction.png>
+Package pdftex.def Info: extinction.png  used on input line 131. on input line 131.
+Package pdftex.def Info: Requested size: 64.01242pt x 64.01242pt on input line 131.
+
+! LaTeX Error: File `' not found.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.132 \cardbiome{}
+                  
+I could not locate the file with any of these extensions:
+.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPEG,.JBIG2,.JB2,.eps
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
 ! Missing number, treated as zero.
 <to be read again> 
                    >
-l.150 \cardcost{1}{}{}
-                      
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-! Missing number, treated as zero.
-<to be read again> 
-                   >
-l.150 \cardcost{1}{}{}
-                      
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 151--151
-[]
- []
-
-
-Overfull \hbox (24.37492pt too wide) in paragraph at lines 151--151
-\T1/DejaVuSansMono-TLF/b/n/14.4 IN-TEL-LI-GENCE 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 151--151
-[]
- []
-
-
-Overfull \hbox (24.37492pt too wide) in paragraph at lines 151--151
-\T1/DejaVuSansMono-TLF/b/n/14.4 IN-TEL-LI-GENCE 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 151--151
-[]
- []
-
-
-Overfull \hbox (24.37492pt too wide) in paragraph at lines 151--151
-\T1/DejaVuSansMono-TLF/b/n/14.4 IN-TEL-LI-GENCE 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 151--151
-[]
- []
-
-
-Overfull \hbox (24.37492pt too wide) in paragraph at lines 151--151
-\T1/DejaVuSansMono-TLF/b/n/14.4 IN-TEL-LI-GENCE 
- []
-
-File: trait.png Graphic file (type png)
-<use trait.png>
-Package pdftex.def Info: trait.png  used on input line 151. on input line 151.
-Package pdftex.def Info: Requested size: 64.01242pt x 64.01242pt on input line 151.
-File: CostR.png Graphic file (type png)
-<use CostR.png>
-Package pdftex.def Info: CostR.png  used on input line 157. on input line 157.
-Package pdftex.def Info: Requested size: 14.22498pt x 14.22636pt on input line 157.
-! Missing number, treated as zero.
-<to be read again> 
-                   >
-l.157 \cardcost{1}{}{}
-                      
+l.138 \cardcata{}{}
+                   
 A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
 look up `weird error' in the index to The TeXbook.)
@@ -2016,515 +2148,295 @@ look up `weird error' in the index to The TeXbook.)
 ! Missing number, treated as zero.
 <to be read again> 
                    >
-l.157 \cardcost{1}{}{}
-                      
+l.138 \cardcata{}{}
+                   
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Missing number, treated as zero.
+<to be read again> 
+                   >
+l.139 \cardextra{}{}
+                    
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Missing number, treated as zero.
+<to be read again> 
+                   >
+l.139 \cardextra{}{}
+                    
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 140--140
+[] \T1/DejaVuSansMono-TLF/b/n/14.4 TRIG-GER
+ []
+
+
+Overfull \hbox (7.03447pt too wide) in paragraph at lines 140--140
+\T1/DejaVuSansMono-TLF/b/n/14.4 EX-TINC-TI-ON 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 140--140
+[] \T1/DejaVuSansMono-TLF/b/n/14.4 TRIG-GER
+ []
+
+
+Overfull \hbox (7.03447pt too wide) in paragraph at lines 140--140
+\T1/DejaVuSansMono-TLF/b/n/14.4 EX-TINC-TI-ON 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 140--140
+[] \T1/DejaVuSansMono-TLF/b/n/14.4 TRIG-GER
+ []
+
+
+Overfull \hbox (7.03447pt too wide) in paragraph at lines 140--140
+\T1/DejaVuSansMono-TLF/b/n/14.4 EX-TINC-TI-ON 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 140--140
+[] \T1/DejaVuSansMono-TLF/b/n/14.4 TRIG-GER
+ []
+
+
+Overfull \hbox (7.03447pt too wide) in paragraph at lines 140--140
+\T1/DejaVuSansMono-TLF/b/n/14.4 EX-TINC-TI-ON 
+ []
+
+File: extinction.png Graphic file (type png)
+<use extinction.png>
+Package pdftex.def Info: extinction.png  used on input line 140. on input line 140.
+Package pdftex.def Info: Requested size: 64.01242pt x 64.01242pt on input line 140.
+
+! LaTeX Error: File `' not found.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.141 \cardbiome{}
+                  
+I could not locate the file with any of these extensions:
+.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPEG,.JBIG2,.JB2,.eps
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+! Missing number, treated as zero.
+<to be read again> 
+                   >
+l.147 \cardcata{}{}
+                   
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Missing number, treated as zero.
+<to be read again> 
+                   >
+l.147 \cardcata{}{}
+                   
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Missing number, treated as zero.
+<to be read again> 
+                   >
+l.148 \cardextra{}{}
+                    
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Missing number, treated as zero.
+<to be read again> 
+                   >
+l.148 \cardextra{}{}
+                    
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 149--149
+[] \T1/DejaVuSansMono-TLF/b/n/14.4 TRIG-GER
+ []
+
+
+Overfull \hbox (7.03447pt too wide) in paragraph at lines 149--149
+\T1/DejaVuSansMono-TLF/b/n/14.4 EX-TINC-TI-ON 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 149--149
+[] \T1/DejaVuSansMono-TLF/b/n/14.4 TRIG-GER
+ []
+
+
+Overfull \hbox (7.03447pt too wide) in paragraph at lines 149--149
+\T1/DejaVuSansMono-TLF/b/n/14.4 EX-TINC-TI-ON 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 149--149
+[] \T1/DejaVuSansMono-TLF/b/n/14.4 TRIG-GER
+ []
+
+
+Overfull \hbox (7.03447pt too wide) in paragraph at lines 149--149
+\T1/DejaVuSansMono-TLF/b/n/14.4 EX-TINC-TI-ON 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 149--149
+[] \T1/DejaVuSansMono-TLF/b/n/14.4 TRIG-GER
+ []
+
+
+Overfull \hbox (7.03447pt too wide) in paragraph at lines 149--149
+\T1/DejaVuSansMono-TLF/b/n/14.4 EX-TINC-TI-ON 
+ []
+
+File: extinction.png Graphic file (type png)
+<use extinction.png>
+Package pdftex.def Info: extinction.png  used on input line 149. on input line 149.
+Package pdftex.def Info: Requested size: 64.01242pt x 64.01242pt on input line 149.
+
+! LaTeX Error: File `' not found.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.150 \cardbiome{}
+                  
+I could not locate the file with any of these extensions:
+.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPEG,.JBIG2,.JB2,.eps
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+! Missing number, treated as zero.
+<to be read again> 
+                   >
+l.156 \cardcata{}{}
+                   
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Missing number, treated as zero.
+<to be read again> 
+                   >
+l.156 \cardcata{}{}
+                   
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Missing number, treated as zero.
+<to be read again> 
+                   >
+l.157 \cardextra{}{}
+                    
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Missing number, treated as zero.
+<to be read again> 
+                   >
+l.157 \cardextra{}{}
+                    
 A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
 look up `weird error' in the index to The TeXbook.)
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 158--158
-[]
+[] \T1/DejaVuSansMono-TLF/b/n/14.4 TRIG-GER
  []
 
 
-Overfull \hbox (24.37492pt too wide) in paragraph at lines 158--158
-\T1/DejaVuSansMono-TLF/b/n/14.4 IN-TEL-LI-GENCE 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 158--158
-[]
- []
-
-
-Overfull \hbox (24.37492pt too wide) in paragraph at lines 158--158
-\T1/DejaVuSansMono-TLF/b/n/14.4 IN-TEL-LI-GENCE 
+Overfull \hbox (7.03447pt too wide) in paragraph at lines 158--158
+\T1/DejaVuSansMono-TLF/b/n/14.4 EX-TINC-TI-ON 
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 158--158
-[]
+[] \T1/DejaVuSansMono-TLF/b/n/14.4 TRIG-GER
  []
 
 
-Overfull \hbox (24.37492pt too wide) in paragraph at lines 158--158
-\T1/DejaVuSansMono-TLF/b/n/14.4 IN-TEL-LI-GENCE 
+Overfull \hbox (7.03447pt too wide) in paragraph at lines 158--158
+\T1/DejaVuSansMono-TLF/b/n/14.4 EX-TINC-TI-ON 
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 158--158
-[]
+[] \T1/DejaVuSansMono-TLF/b/n/14.4 TRIG-GER
  []
 
 
-Overfull \hbox (24.37492pt too wide) in paragraph at lines 158--158
-\T1/DejaVuSansMono-TLF/b/n/14.4 IN-TEL-LI-GENCE 
+Overfull \hbox (7.03447pt too wide) in paragraph at lines 158--158
+\T1/DejaVuSansMono-TLF/b/n/14.4 EX-TINC-TI-ON 
  []
 
-File: trait.png Graphic file (type png)
-<use trait.png>
-Package pdftex.def Info: trait.png  used on input line 158. on input line 158.
+
+Underfull \hbox (badness 10000) in paragraph at lines 158--158
+[] \T1/DejaVuSansMono-TLF/b/n/14.4 TRIG-GER
+ []
+
+
+Overfull \hbox (7.03447pt too wide) in paragraph at lines 158--158
+\T1/DejaVuSansMono-TLF/b/n/14.4 EX-TINC-TI-ON 
+ []
+
+File: extinction.png Graphic file (type png)
+<use extinction.png>
+Package pdftex.def Info: extinction.png  used on input line 158. on input line 158.
 Package pdftex.def Info: Requested size: 64.01242pt x 64.01242pt on input line 158.
-File: CostR.png Graphic file (type png)
-<use CostR.png>
-Package pdftex.def Info: CostR.png  used on input line 164. on input line 164.
-Package pdftex.def Info: Requested size: 14.22498pt x 14.22636pt on input line 164.
-! Missing number, treated as zero.
-<to be read again> 
-                   >
-l.164 \cardcost{1}{}{}
-                      
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
 
-! Missing number, treated as zero.
-<to be read again> 
-                   >
-l.164 \cardcost{1}{}{}
-                      
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
+! LaTeX Error: File `' not found.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.159 \cardbiome{}
+                  
+I could not locate the file with any of these extensions:
+.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPEG,.JBIG2,.JB2,.eps
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 165--165
-[]
- []
-
-
-Overfull \hbox (41.71538pt too wide) in paragraph at lines 165--165
-\T1/DejaVuSansMono-TLF/b/n/14.4 PHO-TO-SYN-THE-SIS 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 165--165
-[]
- []
-
-
-Overfull \hbox (41.71538pt too wide) in paragraph at lines 165--165
-\T1/DejaVuSansMono-TLF/b/n/14.4 PHO-TO-SYN-THE-SIS 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 165--165
-[]
- []
-
-
-Overfull \hbox (41.71538pt too wide) in paragraph at lines 165--165
-\T1/DejaVuSansMono-TLF/b/n/14.4 PHO-TO-SYN-THE-SIS 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 165--165
-[]
- []
-
-
-Overfull \hbox (41.71538pt too wide) in paragraph at lines 165--165
-\T1/DejaVuSansMono-TLF/b/n/14.4 PHO-TO-SYN-THE-SIS 
- []
-
-File: trait.png Graphic file (type png)
-<use trait.png>
-Package pdftex.def Info: trait.png  used on input line 165. on input line 165.
-Package pdftex.def Info: Requested size: 64.01242pt x 64.01242pt on input line 165.
-File: CostR.png Graphic file (type png)
-<use CostR.png>
-Package pdftex.def Info: CostR.png  used on input line 171. on input line 171.
-Package pdftex.def Info: Requested size: 14.22498pt x 14.22636pt on input line 171.
-! Missing number, treated as zero.
-<to be read again> 
-                   >
-l.171 \cardcost{1}{}{}
-                      
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-! Missing number, treated as zero.
-<to be read again> 
-                   >
-l.171 \cardcost{1}{}{}
-                      
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 172--172
-[]
- []
-
-
-Overfull \hbox (41.71538pt too wide) in paragraph at lines 172--172
-\T1/DejaVuSansMono-TLF/b/n/14.4 PHO-TO-SYN-THE-SIS 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 172--172
-[]
- []
-
-
-Overfull \hbox (41.71538pt too wide) in paragraph at lines 172--172
-\T1/DejaVuSansMono-TLF/b/n/14.4 PHO-TO-SYN-THE-SIS 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 172--172
-[]
- []
-
-
-Overfull \hbox (41.71538pt too wide) in paragraph at lines 172--172
-\T1/DejaVuSansMono-TLF/b/n/14.4 PHO-TO-SYN-THE-SIS 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 172--172
-[]
- []
-
-
-Overfull \hbox (41.71538pt too wide) in paragraph at lines 172--172
-\T1/DejaVuSansMono-TLF/b/n/14.4 PHO-TO-SYN-THE-SIS 
- []
-
-File: trait.png Graphic file (type png)
-<use trait.png>
-Package pdftex.def Info: trait.png  used on input line 172. on input line 172.
-Package pdftex.def Info: Requested size: 64.01242pt x 64.01242pt on input line 172.
-File: CostR.png Graphic file (type png)
-<use CostR.png>
-Package pdftex.def Info: CostR.png  used on input line 178. on input line 178.
-Package pdftex.def Info: Requested size: 14.22498pt x 14.22636pt on input line 178.
-! Missing number, treated as zero.
-<to be read again> 
-                   >
-l.178 \cardcost{1}{}{}
-                      
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-! Missing number, treated as zero.
-<to be read again> 
-                   >
-l.178 \cardcost{1}{}{}
-                      
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 179--179
-[] \T1/DejaVuSansMono-TLF/b/n/14.4 NIGHT
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 179--179
-[] \T1/DejaVuSansMono-TLF/b/n/14.4 NIGHT
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 179--179
-[] \T1/DejaVuSansMono-TLF/b/n/14.4 NIGHT
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 179--179
-[] \T1/DejaVuSansMono-TLF/b/n/14.4 NIGHT
- []
-
-File: trait.png Graphic file (type png)
-<use trait.png>
-Package pdftex.def Info: trait.png  used on input line 179. on input line 179.
-Package pdftex.def Info: Requested size: 64.01242pt x 64.01242pt on input line 179.
-File: CostR.png Graphic file (type png)
-<use CostR.png>
-Package pdftex.def Info: CostR.png  used on input line 185. on input line 185.
-Package pdftex.def Info: Requested size: 14.22498pt x 14.22636pt on input line 185.
-! Missing number, treated as zero.
-<to be read again> 
-                   >
-l.185 \cardcost{1}{}{}
-                      
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-! Missing number, treated as zero.
-<to be read again> 
-                   >
-l.185 \cardcost{1}{}{}
-                      
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 186--186
-[] \T1/DejaVuSansMono-TLF/b/n/14.4 NIGHT
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 186--186
-[] \T1/DejaVuSansMono-TLF/b/n/14.4 NIGHT
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 186--186
-[] \T1/DejaVuSansMono-TLF/b/n/14.4 NIGHT
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 186--186
-[] \T1/DejaVuSansMono-TLF/b/n/14.4 NIGHT
- []
-
-File: trait.png Graphic file (type png)
-<use trait.png>
-Package pdftex.def Info: trait.png  used on input line 186. on input line 186.
-Package pdftex.def Info: Requested size: 64.01242pt x 64.01242pt on input line 186.
-File: CostR.png Graphic file (type png)
-<use CostR.png>
-Package pdftex.def Info: CostR.png  used on input line 192. on input line 192.
-Package pdftex.def Info: Requested size: 14.22498pt x 14.22636pt on input line 192.
-! Missing number, treated as zero.
-<to be read again> 
-                   >
-l.192 \cardcost{2}{}{}
-                      
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-! Missing number, treated as zero.
-<to be read again> 
-                   >
-l.192 \cardcost{2}{}{}
-                      
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-File: trait.png Graphic file (type png)
-<use trait.png>
-Package pdftex.def Info: trait.png  used on input line 193. on input line 193.
-Package pdftex.def Info: Requested size: 64.01242pt x 64.01242pt on input line 193.
-
-Underfull \hbox (badness 2671) in paragraph at lines 194--194
-[][][][]\T1/antt/m/n/14.4 1 food feeds all 
- []
-
-
-Underfull \hbox (badness 1082) in paragraph at lines 194--194
-\T1/antt/m/n/14.4 po-pu-la-ti-on of this 
- []
-
-File: CostR.png Graphic file (type png)
-<use CostR.png>
-Package pdftex.def Info: CostR.png  used on input line 199. on input line 199.
-Package pdftex.def Info: Requested size: 14.22498pt x 14.22636pt on input line 199.
-! Missing number, treated as zero.
-<to be read again> 
-                   >
-l.199 \cardcost{2}{}{}
-                      
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-! Missing number, treated as zero.
-<to be read again> 
-                   >
-l.199 \cardcost{2}{}{}
-                      
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-File: trait.png Graphic file (type png)
-<use trait.png>
-Package pdftex.def Info: trait.png  used on input line 200. on input line 200.
-Package pdftex.def Info: Requested size: 64.01242pt x 64.01242pt on input line 200.
-
-Underfull \hbox (badness 2671) in paragraph at lines 201--201
-[][][][]\T1/antt/m/n/14.4 1 food feeds all 
- []
-
-
-Underfull \hbox (badness 1082) in paragraph at lines 201--201
-\T1/antt/m/n/14.4 po-pu-la-ti-on of this 
- []
-
-File: CostR.png Graphic file (type png)
-<use CostR.png>
-Package pdftex.def Info: CostR.png  used on input line 206. on input line 206.
-Package pdftex.def Info: Requested size: 14.22498pt x 14.22636pt on input line 206.
-! Missing number, treated as zero.
-<to be read again> 
-                   >
-l.206 \cardcost{2}{}{}
-                      
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-! Missing number, treated as zero.
-<to be read again> 
-                   >
-l.206 \cardcost{2}{}{}
-                      
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 207--207
-[] \T1/DejaVuSansMono-TLF/b/n/14.4 APEX
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 207--207
-[] \T1/DejaVuSansMono-TLF/b/n/14.4 APEX
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 207--207
-[] \T1/DejaVuSansMono-TLF/b/n/14.4 APEX
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 207--207
-[] \T1/DejaVuSansMono-TLF/b/n/14.4 APEX
- []
-
-File: trait.png Graphic file (type png)
-<use trait.png>
-Package pdftex.def Info: trait.png  used on input line 207. on input line 207.
-Package pdftex.def Info: Requested size: 64.01242pt x 64.01242pt on input line 207.
-File: CostR.png Graphic file (type png)
-<use CostR.png>
-Package pdftex.def Info: CostR.png  used on input line 213. on input line 213.
-Package pdftex.def Info: Requested size: 14.22498pt x 14.22636pt on input line 213.
-! Missing number, treated as zero.
-<to be read again> 
-                   >
-l.213 \cardcost{2}{}{}
-                      
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-! Missing number, treated as zero.
-<to be read again> 
-                   >
-l.213 \cardcost{2}{}{}
-                      
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 214--214
-[] \T1/DejaVuSansMono-TLF/b/n/14.4 APEX
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 214--214
-[] \T1/DejaVuSansMono-TLF/b/n/14.4 APEX
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 214--214
-[] \T1/DejaVuSansMono-TLF/b/n/14.4 APEX
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 214--214
-[] \T1/DejaVuSansMono-TLF/b/n/14.4 APEX
- []
-
-File: trait.png Graphic file (type png)
-<use trait.png>
-Package pdftex.def Info: trait.png  used on input line 214. on input line 214.
-Package pdftex.def Info: Requested size: 64.01242pt x 64.01242pt on input line 214.
-File: CostR.png Graphic file (type png)
-<use CostR.png>
-Package pdftex.def Info: CostR.png  used on input line 220. on input line 220.
-Package pdftex.def Info: Requested size: 14.22498pt x 14.22636pt on input line 220.
-! Missing number, treated as zero.
-<to be read again> 
-                   >
-l.220 \cardcost{3}{}{}
-                      
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-! Missing number, treated as zero.
-<to be read again> 
-                   >
-l.220 \cardcost{3}{}{}
-                      
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-File: trait.png Graphic file (type png)
-<use trait.png>
-Package pdftex.def Info: trait.png  used on input line 221. on input line 221.
-Package pdftex.def Info: Requested size: 64.01242pt x 64.01242pt on input line 221.
-File: CostR.png Graphic file (type png)
-<use CostR.png>
-Package pdftex.def Info: CostR.png  used on input line 227. on input line 227.
-Package pdftex.def Info: Requested size: 14.22498pt x 14.22636pt on input line 227.
-! Missing number, treated as zero.
-<to be read again> 
-                   >
-l.227 \cardcost{3}{}{}
-                      
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-! Missing number, treated as zero.
-<to be read again> 
-                   >
-l.227 \cardcost{3}{}{}
-                      
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-File: trait.png Graphic file (type png)
-<use trait.png>
-Package pdftex.def Info: trait.png  used on input line 228. on input line 228.
-Package pdftex.def Info: Requested size: 64.01242pt x 64.01242pt on input line 228.
 ) [1
 
-{C:/Users/coldf_000/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map} <./goal.png>] [2 <./CostR.png> <./labtrait.png> <
-./gene.png> <./trait.png> <./labfood.png> <./stat.png> <./labbag.png> <./lab.png>] [3] [4] (Cards.aux) ) 
+{C:/Users/coldf_000/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map} <./catastrophe.png> <./gene.png> <./trait.png>] [
+2 <./extinction.png>] (Cards.aux) ) 
 Here is how much of TeX's memory you used:
- 18016 strings out of 493312
- 377468 string characters out of 3138886
- 662958 words of memory out of 3000000
- 21115 multiletter control sequences out of 15000+200000
+ 18003 strings out of 493312
+ 377226 string characters out of 3138886
+ 620418 words of memory out of 3000000
+ 21098 multiletter control sequences out of 15000+200000
  18653 words of font info for 26 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 57i,14n,78p,431b,830s stack positions out of 5000i,500n,10000p,200000b,50000s
-{C:/Program File
-s/MiKTeX 2.9/fonts/enc/dvips/dejavu/dejavumono_t1-type1.enc}{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/antt/antt-ec.en
-c}<C:/Program Files/MiKTeX 2.9/fonts/type1/public/dejavu/DejaVuSansMono-Bold.pfb><C:/Program Files/MiKTeX 2.9/fonts/type
-1/public/dejavu/DejaVuSansMono.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/antt/anttr.pfb>
-Output written on Cards.pdf (4 pages, 210733 bytes).
+ 57i,14n,78p,431b,832s stack positions out of 5000i,500n,10000p,200000b,50000s
+{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/dejavu/dejavumono_t1-type1.enc}{C:/Progr
+am Files/MiKTeX 2.9/fonts/enc/dvips/antt/antt-ec.enc}<C:/Program Files/MiKTeX 2.9/fonts/type1/public/dejavu/DejaVuSansMo
+no-Bold.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/dejavu/DejaVuSansMono.pfb><C:/Program Files/MiKTeX 2.9/fonts
+/type1/public/antt/anttr.pfb>
+Output written on Cards.pdf (2 pages, 143991 bytes).
 PDF statistics:
- 75 PDF objects out of 1000 (max. 8388607)
+ 59 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 5786 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 5761 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -9,6 +9,7 @@ def createTraitCard(name, costR, costB, costY, cataColor, text, image, cataColor
     code += "\cardinfo{" + name + "}{" + image + "} \n"
     if text != "":
         code += "\cardcontent{" + text + "} \n"
+    #code += "\end{tikzpicture}\n\\newpage\n"
     code += "\end{tikzpicture}\n\hspace{-4mm}\n"
     return code
 

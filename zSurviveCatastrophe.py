@@ -9,6 +9,7 @@ def createCatastropheCard(name, biome, population, traits, text, image, disaster
     code += "\cardbiome{" + biome + "} \n"
     if text != "":
         code += "\cardcontent{" + text + "} \n"
+    #code += "\end{tikzpicture}\n\\newpage\n"
     code += "\end{tikzpicture}\n\hspace{-4mm}\n"
     return code
 
