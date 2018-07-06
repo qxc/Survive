@@ -5,9 +5,12 @@
 \pgfmathsetmacro{\imageheight}{0.75*\cardheight}
 
 % Macros for text
+\newcommand{\fontSize}{\Huge}
+\newcommand{\titleFont}{\Huge}
 \newcommand{\EndRound}{\textbf{At end of round}, }
-\newcommand{\imageSize}{1.5cm}
-\newcommand{\imageInSize}{1.25cm}
+\newcommand{\imageSize}{3cm}
+\newcommand{\imageInSize}{1cm}
+\newcommand{\mainIconSize}{10cm}
 \newcommand{\CostR}{\includegraphics[height = \imageSize]{CostR} }
 \newcommand{\CostB}{\includegraphics[height = \imageSize]{CostB} }
 \newcommand{\CostY}{\includegraphics[height = \imageSize]{CostY} }
@@ -24,8 +27,8 @@
 \newcommand{\StartRound}{\includegraphics[height = \imageSize] {startRound} }
 \newcommand{\WhenGain}{\includegraphics[height = \imageSize] {gain} }
 \newcommand{\OnceRound}{\includegraphics[height = \imageSize] {onceRound}: }
-\newcommand{\Feed}{\includegraphics[height = \imageSize] {Gene} }
-\newcommand{\Another}{\includegraphics[height = \imageSize]{another} }
+\newcommand{\Feed}{\includegraphics[height = \imageInSize] {Gene} }
+\newcommand{\Another}{\includegraphics[height = \imageInSize]{another} }
 \newcommand{\vp}{\includegraphics[height = \imageInSize] {vp} }
 
 %   Defines the card shape
@@ -48,9 +51,9 @@
 % Cost, Strength, Prosperity, Loyalty
 \newcommand{\cardcost}[3]{
 		%\node[left] at (\cardwidth*.20,\cardheight*.8) {#1\CostR};
-		\ifthenelse{ #1> 0}{\node[left] at (\cardwidth*.20,\cardheight*.8) {\Huge{#1}\CostR};}{}
-		\ifthenelse{ #2> 0}{\node[left] at (\cardwidth*.20,\cardheight*.7) {\Huge#2\CostB};}{}
-		\ifthenelse{ #3> 0}{\node[left] at (\cardwidth*.20,\cardheight*.6) {\Huge#3\CostY};}{}
+		\ifthenelse{ #1> 0}{\node[left] at (\cardwidth*.20,\cardheight*.8) {\fontSize{#1}\CostR};}{}
+		\ifthenelse{ #2> 0}{\node[left] at (\cardwidth*.20,\cardheight*.65) {\fontSize#2\CostB};}{}
+		\ifthenelse{ #3> 0}{\node[left] at (\cardwidth*.20,\cardheight*.50) {\fontSize#3\CostY};}{}
 }
 
 \newcommand{\cardcatacolor}[2]{
@@ -63,8 +66,8 @@
 }
 
 \newcommand{\cardcata}[2]{
-	\ifthenelse{ #1> 0}{\node[left] at (\cardwidth*.20,\cardheight*.8) {\Huge#1\Disaster};}{}
-	\ifthenelse{ #2> 0}{\node[left] at (\cardwidth*.20,\cardheight*.7) {\Huge#2\Epidemic};}{}
+	\ifthenelse{ #1> 0}{\node[left] at (\cardwidth*.20,\cardheight*.8) {\fontSize#1\Disaster};}{}
+	\ifthenelse{ #2> 0}{\node[left] at (\cardwidth*.20,\cardheight*.7) {\fontSize#2\Epidemic};}{}
 }
 
 \newcommand{\cardextra}[2] {
@@ -79,15 +82,15 @@
 \newcommand{\cardinfo}[2]{
 		% Add the title with some shadow
 		\node[text width=14.5cm, below right] at (\cardwidth*.2,\cardheight*.95) {
-       \shadowtext{\parbox{8.5cm}{\begin{spacing}{3.6}\textbf{\hspace{-1.5cm}\uppercase{\Huge #1}}\end{spacing}}}
+       \shadowtext{\parbox{8.5cm}{\begin{spacing}{3.6}\textbf{\hspace{-1.5cm}\uppercase{\titleFont #1}}\end{spacing}}}
     };
 		% Add the image to the card.
-		\node at (\cardwidth*.5, \cardheight*.7) {\includegraphics[height = 6.75cm, width = 9cm, keepaspectratio]{#2}};
+		\node at (\cardwidth*.5, \cardheight*.7) {\includegraphics[height = \mainIconSize, width = 9cm, keepaspectratio]{#2}};
 }
 
 % Adds the description and boxes it.
 \newcommand{\cardcontent}[1]{
-	\node[draw, rectangle, ultra thick, text width=15.5cm, below] at (\cardwidth*.5, 0.5*\cardheight) {\textrm{\Huge#1}};
+	\node[draw, rectangle, ultra thick, text width=15.5cm, below] at (\cardwidth*.5, 0.3*\cardheight) {\textrm{\fontSize#1}};
 }
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Legacy commands
@@ -96,14 +99,14 @@
 		\clip[cardcorners] \shapeCard;
 		%\draw[fill=white] (\cardwidth-.2,\cardheight-.2)--(.2,\cardheight-.2)--(.2,.2)--(\cardwidth-.2,.2)--cycle;
     %\node at (\cardwidth/2, \cardheight/2) {\includegraphics[height = 9.5cm]{#1}};
-		\node[rotate=270] at (5,6.15) {\textbf{\large{\uppercase{#1}}}};
+		\node[rotate=270] at (5,6.15) {\textbf{\fontSize{\uppercase{#1}}}};
 		\node[rotate=0] at (5,8) {\includegraphics[height = .95cm]{#1}};
 }
 
 
 
 \newcommand{\cardhp}[1]{
-		\node[left] at (\cardwidth-\stripwidth*.45,\cardheight-5.4*\stripwidth) {\textbf{\LARGE #1} \Health};
+		\node[left] at (\cardwidth-\stripwidth*.45,\cardheight-5.4*\stripwidth) {\textbf{\fontSize #1} \Health};
 }
 
 
@@ -112,7 +115,7 @@
 }
 
 \newcommand{\cardvp}[1]{
-		\node at (\cardwidth-.7,\cardheight-.5) {\textbf{\LARGE #1\vp}};
+		\node at (\cardwidth-.7,\cardheight-.5) {\textbf{\fontSize #1\vp}};
 }
 
 \newcommand{\first}[1]{
