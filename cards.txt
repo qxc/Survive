@@ -1,162 +1,378 @@
 \begin{tikzpicture} 
 \cardborder{} 
-\cardcata{}{} 
-\cardextra{}{} 
-\cardinfo{Flood}{catastrophe} 
-\cardbiome{} 
-\cardcontent{Have exactly 4 \Gene.} 
+\cardcost{1}{}{} 
+\cardinfo{Chitin}{gain} 
+\cardcontent{Move the lowest \Gene from the Center to this Species.} 
 \end{tikzpicture}
-\hspace{-4mm}
+\newpage
 \begin{tikzpicture} 
 \cardborder{} 
-\cardcata{}{} 
-\cardextra{}{} 
-\cardinfo{Invasive Predators}{catastrophe} 
-\cardbiome{} 
-\cardcontent{Have only Black \Gene.} 
+\cardcost{1}{}{} 
+\cardinfo{Chitin}{gain} 
+\cardcontent{Move the lowest \Gene from the Center to this Species.} 
 \end{tikzpicture}
-\hspace{-4mm}
+\newpage
 \begin{tikzpicture} 
 \cardborder{} 
-\cardcata{}{} 
-\cardextra{}{} 
-\cardinfo{Harsh Winter}{catastrophe} 
-\cardbiome{} 
-\cardcontent{Have exactly 1 \Trait and no Blue \Gene.} 
+\cardcost{1}{}{} 
+\cardinfo{Claws}{upgrade} 
+\cardcontent{Upgrade 2 different \Gene in the Center.} 
 \end{tikzpicture}
-\hspace{-4mm}
+\newpage
 \begin{tikzpicture} 
 \cardborder{} 
-\cardcata{}{} 
-\cardextra{}{} 
-\cardinfo{Heat Wave}{catastrophe} 
-\cardbiome{} 
-\cardcontent{Have 4+ Black \Gene and no Blue \Gene.} 
+\cardcost{1}{}{} 
+\cardinfo{Claws}{upgrade} 
+\cardcontent{Upgrade 2 different \Gene in the Center.} 
 \end{tikzpicture}
-\hspace{-4mm}
+\newpage
 \begin{tikzpicture} 
 \cardborder{} 
-\cardcata{}{} 
-\cardextra{}{} 
-\cardinfo{Famine}{catastrophe} 
-\cardbiome{} 
-\cardcontent{Have 5 or less \Gene and 3+ Black \Gene.} 
+\cardcost{1}{}{} 
+\cardinfo{Night Vision}{another} 
+\cardcontent{\Another: Upgrade 1 \Gene in the Center.} 
 \end{tikzpicture}
-\hspace{-4mm}
+\newpage
 \begin{tikzpicture} 
 \cardborder{} 
-\cardcata{}{} 
-\cardextra{}{} 
-\cardinfo{Drought}{catastrophe} 
-\cardbiome{} 
-\cardcontent{Have no \Gene.} 
+\cardcost{1}{}{} 
+\cardinfo{Night Vision}{another} 
+\cardcontent{\Another: Upgrade 1 \Gene in the Center.} 
 \end{tikzpicture}
-\hspace{-4mm}
+\newpage
 \begin{tikzpicture} 
 \cardborder{} 
-\cardcata{}{} 
-\cardextra{}{} 
-\cardinfo{Forest Fire}{catastrophe} 
-\cardbiome{} 
-\cardcontent{Have total \Gene value between 3 and 6.} 
+\cardcost{1}{}{} 
+\cardinfo{Venom}{odd} 
+\cardcontent{Move 1 \Gene from your Cup to this Species. Move 1 \Gene from this Species to your Cup.} 
 \end{tikzpicture}
-\hspace{-4mm}
+\newpage
 \begin{tikzpicture} 
 \cardborder{} 
-\cardcata{}{} 
-\cardextra{}{} 
-\cardinfo{Epidemic}{catastrophe} 
-\cardbiome{} 
-\cardcontent{Have total \Trait value of 5+.} 
+\cardcost{1}{}{} 
+\cardinfo{Venom}{odd} 
+\cardcontent{Move 1 \Gene from your Cup to this Species. Move 1 \Gene from this Species to your Cup.} 
 \end{tikzpicture}
-\hspace{-4mm}
+\newpage
 \begin{tikzpicture} 
 \cardborder{} 
-\cardcata{}{} 
-\cardextra{}{} 
-\cardinfo{Tornado}{catastrophe} 
-\cardbiome{} 
-\cardcontent{Have only Purple \Gene.} 
+\cardcost{2}{}{} 
+\cardinfo{Echolocation}{another} 
+\cardcontent{\Another: Move 1 \Gene from this Species to one other Species.} 
 \end{tikzpicture}
-\hspace{-4mm}
+\newpage
 \begin{tikzpicture} 
 \cardborder{} 
-\cardcata{}{} 
-\cardextra{}{} 
-\cardinfo{Hurricane}{catastrophe} 
-\cardbiome{} 
-\cardcontent{Have only Red \Gene.} 
+\cardcost{2}{}{} 
+\cardinfo{Echolocation}{another} 
+\cardcontent{\Another: Move 1 \Gene from this Species to one other Species.} 
 \end{tikzpicture}
-\hspace{-4mm}
+\newpage
 \begin{tikzpicture} 
 \cardborder{} 
-\cardcata{}{} 
-\cardextra{}{} 
-\cardinfo{Extinction1}{extinction} 
-\cardbiome{} 
-\cardcontent{Have 2+ \Trait.} 
+\cardcost{2}{}{} 
+\cardinfo{Armored Shell}{gain} 
+\cardcontent{Move the highest \Gene from the Center to this Species. Upgrade 2 \Gene in the Center.} 
 \end{tikzpicture}
-\hspace{-4mm}
+\newpage
 \begin{tikzpicture} 
 \cardborder{} 
-\cardcata{}{} 
-\cardextra{}{} 
-\cardinfo{Extinction2}{extinction} 
-\cardbiome{} 
-\cardcontent{Have more Purple \Gene than any other color.} 
+\cardcost{2}{}{} 
+\cardinfo{Armored Shell}{gain} 
+\cardcontent{Move the highest \Gene from the Center to this Species. Upgrade 2 \Gene in the Center.} 
 \end{tikzpicture}
-\hspace{-4mm}
+\newpage
 \begin{tikzpicture} 
 \cardborder{} 
-\cardcata{}{} 
-\cardextra{}{} 
-\cardinfo{Extinction3}{extinction} 
-\cardbiome{} 
-\cardcontent{Have less than 6 \Gene and 3+ Blue \Gene.} 
+\cardcost{2}{}{} 
+\cardinfo{Second Heart}{odd} 
+\cardcontent{Move 1 \Gene from this Species to your Hand. Move 1 \Gene from your Hand to this Species. } 
 \end{tikzpicture}
-\hspace{-4mm}
+\newpage
 \begin{tikzpicture} 
 \cardborder{} 
-\cardcata{}{} 
-\cardextra{}{} 
-\cardinfo{Extinction4}{extinction} 
-\cardbiome{} 
-\cardcontent{Have 2+ Red \Gene and 3+ Black \Gene.} 
+\cardcost{2}{}{} 
+\cardinfo{Second Heart}{odd} 
+\cardcontent{Move 1 \Gene from this Species to your Hand. Move 1 \Gene from your Hand to this Species. } 
 \end{tikzpicture}
-\hspace{-4mm}
+\newpage
 \begin{tikzpicture} 
 \cardborder{} 
-\cardcata{}{} 
-\cardextra{}{} 
-\cardinfo{Trigger Extinction}{extinction} 
-\cardbiome{} 
-\cardcontent{Resolve the top card of the Extinction deck.} 
+\cardcost{3}{}{} 
+\cardinfo{Pack Hunter}{vp} 
+\cardcontent{+1 \vp.} 
 \end{tikzpicture}
-\hspace{-4mm}
+\newpage
 \begin{tikzpicture} 
 \cardborder{} 
-\cardcata{}{} 
-\cardextra{}{} 
-\cardinfo{Trigger Extinction}{extinction} 
-\cardbiome{} 
-\cardcontent{Resolve the top card of the Extinction deck.} 
+\cardcost{3}{}{} 
+\cardinfo{Pack Hunter}{vp} 
+\cardcontent{+1 \vp.} 
 \end{tikzpicture}
-\hspace{-4mm}
+\newpage
 \begin{tikzpicture} 
 \cardborder{} 
-\cardcata{}{} 
-\cardextra{}{} 
-\cardinfo{Trigger Extinction}{extinction} 
-\cardbiome{} 
-\cardcontent{Resolve the top card of the Extinction deck.} 
+\cardcost{2}{}{} 
+\cardinfo{Spines}{gain} 
+\cardcontent{Upgrade 1 \Gene in the Center. Move the lowest \Gene from the Center to this Species.} 
 \end{tikzpicture}
-\hspace{-4mm}
+\newpage
 \begin{tikzpicture} 
 \cardborder{} 
-\cardcata{}{} 
-\cardextra{}{} 
-\cardinfo{Trigger Extinction}{extinction} 
-\cardbiome{} 
-\cardcontent{Resolve the top card of the Extinction deck.} 
+\cardcost{2}{}{} 
+\cardinfo{Spines}{gain} 
+\cardcontent{Upgrade 1 \Gene in the Center. Move the lowest \Gene from the Center to this Species.} 
 \end{tikzpicture}
-\hspace{-4mm}
+\newpage
+\begin{tikzpicture} 
+\cardborder{} 
+\cardcost{3}{}{} 
+\cardinfo{Infrared Senses}{another} 
+\cardcontent{\Another: Move 1 \Gene from this Species to the Center. Move 1 \Gene from the Center of the same or next highest value \Gene to this Species.} 
+\end{tikzpicture}
+\newpage
+\begin{tikzpicture} 
+\cardborder{} 
+\cardcost{3}{}{} 
+\cardinfo{Infrared Senses}{another} 
+\cardcontent{\Another: Move 1 \Gene from this Species to the Center. Move 1 \Gene from the Center of the same or next highest value \Gene to this Species.} 
+\end{tikzpicture}
+\newpage
+\begin{tikzpicture} 
+\cardborder{} 
+\cardcost{3}{}{} 
+\cardinfo{Camouflage}{move} 
+\cardcontent{Move 2 \Gene from this Species to one other Species.} 
+\end{tikzpicture}
+\newpage
+\begin{tikzpicture} 
+\cardborder{} 
+\cardcost{3}{}{} 
+\cardinfo{Camouflage}{move} 
+\cardcontent{Move 2 \Gene from this Species to one other Species.} 
+\end{tikzpicture}
+\newpage
+\begin{tikzpicture} 
+\cardborder{} 
+\cardcost{3}{}{} 
+\cardinfo{Scales}{gain} 
+\cardcontent{Upgrade 2 different \Gene in the Center. Move the highest \Gene from the Center to this Species.} 
+\end{tikzpicture}
+\newpage
+\begin{tikzpicture} 
+\cardborder{} 
+\cardcost{3}{}{} 
+\cardinfo{Scales}{gain} 
+\cardcontent{Upgrade 2 different \Gene in the Center. Move the highest \Gene from the Center to this Species.} 
+\end{tikzpicture}
+\newpage
+\begin{tikzpicture} 
+\cardborder{} 
+\cardcost{4}{}{} 
+\cardinfo{Fur}{gain} 
+\cardcontent{Move the 2 highest \Gene from the Center to this Species.} 
+\end{tikzpicture}
+\newpage
+\begin{tikzpicture} 
+\cardborder{} 
+\cardcost{4}{}{} 
+\cardinfo{Fur}{gain} 
+\cardcontent{Move the 2 highest \Gene from the Center to this Species.} 
+\end{tikzpicture}
+\newpage
+\begin{tikzpicture} 
+\cardborder{} 
+\cardcost{4}{}{} 
+\cardinfo{Flippers}{move} 
+\cardcontent{Move 3 total \Gene from other Species to this Species.} 
+\end{tikzpicture}
+\newpage
+\begin{tikzpicture} 
+\cardborder{} 
+\cardcost{4}{}{} 
+\cardinfo{Flippers}{move} 
+\cardcontent{Move 3 total \Gene from other Species to this Species.} 
+\end{tikzpicture}
+\newpage
+\begin{tikzpicture} 
+\cardborder{} 
+\cardcost{4}{}{} 
+\cardinfo{Wings}{move} 
+\cardcontent{Move up to 4 \Gene from this Species to one other Species.} 
+\end{tikzpicture}
+\newpage
+\begin{tikzpicture} 
+\cardborder{} 
+\cardcost{4}{}{} 
+\cardinfo{Wings}{move} 
+\cardcontent{Move up to 4 \Gene from this Species to one other Species.} 
+\end{tikzpicture}
+\newpage
+\begin{tikzpicture} 
+\cardborder{} 
+\cardcost{2}{1}{1} 
+\cardinfo{Amphibian}{frog} 
+\cardcontent{2 \Feed: Move 1 \Gene from this Species to the Center. Move 1 \Gene from the Center of the same or next highest value \Gene to this Species.} 
+\end{tikzpicture}
+\newpage
+\begin{tikzpicture} 
+\cardborder{} 
+\cardcost{2}{1}{1} 
+\cardinfo{Amphibian}{frog} 
+\cardcontent{2 \Feed: Move 1 \Gene from this Species to the Center. Move 1 \Gene from the Center of the same or next highest value \Gene to this Species.} 
+\end{tikzpicture}
+\newpage
+\begin{tikzpicture} 
+\cardborder{} 
+\cardcost{2}{1}{1} 
+\cardinfo{Amphibian}{frog} 
+\cardcontent{2 \Feed: Move 1 \Gene from this Species to the Center. Move 1 \Gene from the Center of the same or next highest value \Gene to this Species.} 
+\end{tikzpicture}
+\newpage
+\begin{tikzpicture} 
+\cardborder{} 
+\cardcost{2}{1}{1} 
+\cardinfo{Amphibian}{frog} 
+\cardcontent{2 \Feed: Move 1 \Gene from this Species to the Center. Move 1 \Gene from the Center of the same or next highest value \Gene to this Species.} 
+\end{tikzpicture}
+\newpage
+\begin{tikzpicture} 
+\cardborder{} 
+\cardcost{3}{1}{1} 
+\cardinfo{Fungus}{fungus} 
+\cardcontent{2 \Feed: Upgrade 2 different \Gene in the Center. Move the lowest \Gene in the Center to this Species.} 
+\end{tikzpicture}
+\newpage
+\begin{tikzpicture} 
+\cardborder{} 
+\cardcost{3}{1}{1} 
+\cardinfo{Fungus}{fungus} 
+\cardcontent{2 \Feed: Upgrade 2 different \Gene in the Center. Move the lowest \Gene in the Center to this Species.} 
+\end{tikzpicture}
+\newpage
+\begin{tikzpicture} 
+\cardborder{} 
+\cardcost{3}{1}{1} 
+\cardinfo{Fungus}{fungus} 
+\cardcontent{2 \Feed: Upgrade 2 different \Gene in the Center. Move the lowest \Gene in the Center to this Species.} 
+\end{tikzpicture}
+\newpage
+\begin{tikzpicture} 
+\cardborder{} 
+\cardcost{3}{1}{1} 
+\cardinfo{Fungus}{fungus} 
+\cardcontent{2 \Feed: Upgrade 2 different \Gene in the Center. Move the lowest \Gene in the Center to this Species.} 
+\end{tikzpicture}
+\newpage
+\begin{tikzpicture} 
+\cardborder{} 
+\cardcost{1}{1}{1} 
+\cardinfo{Bacteria}{parmecia} 
+\cardcontent{2 \Feed: Move the lowest \Gene from the Center to this Species.} 
+\end{tikzpicture}
+\newpage
+\begin{tikzpicture} 
+\cardborder{} 
+\cardcost{1}{1}{1} 
+\cardinfo{Bacteria}{parmecia} 
+\cardcontent{2 \Feed: Move the lowest \Gene from the Center to this Species.} 
+\end{tikzpicture}
+\newpage
+\begin{tikzpicture} 
+\cardborder{} 
+\cardcost{1}{1}{1} 
+\cardinfo{Bacteria}{parmecia} 
+\cardcontent{2 \Feed: Move the lowest \Gene from the Center to this Species.} 
+\end{tikzpicture}
+\newpage
+\begin{tikzpicture} 
+\cardborder{} 
+\cardcost{1}{1}{1} 
+\cardinfo{Bacteria}{parmecia} 
+\cardcontent{2 \Feed: Move the lowest \Gene from the Center to this Species.} 
+\end{tikzpicture}
+\newpage
+\begin{tikzpicture} 
+\cardborder{} 
+\cardcost{1}{1}{1} 
+\cardinfo{Bacteria}{parmecia} 
+\cardcontent{2 \Feed: Move the lowest \Gene from the Center to this Species.} 
+\end{tikzpicture}
+\newpage
+\begin{tikzpicture} 
+\cardborder{} 
+\cardcost{1}{1}{1} 
+\cardinfo{Bacteria}{parmecia} 
+\cardcontent{2 \Feed: Move the lowest \Gene from the Center to this Species.} 
+\end{tikzpicture}
+\newpage
+\begin{tikzpicture} 
+\cardborder{} 
+\cardcost{1}{1}{1} 
+\cardinfo{Bacteria}{parmecia} 
+\cardcontent{2 \Feed: Move the lowest \Gene from the Center to this Species.} 
+\end{tikzpicture}
+\newpage
+\begin{tikzpicture} 
+\cardborder{} 
+\cardcost{1}{1}{1} 
+\cardinfo{Bacteria}{parmecia} 
+\cardcontent{2 \Feed: Move the lowest \Gene from the Center to this Species.} 
+\end{tikzpicture}
+\newpage
+\begin{tikzpicture} 
+\cardborder{} 
+\cardcost{4}{2}{2} 
+\cardinfo{Bird}{bird} 
+\cardcontent{3 \Feed: One other Species gains a \Trait for free.} 
+\end{tikzpicture}
+\newpage
+\begin{tikzpicture} 
+\cardborder{} 
+\cardcost{4}{2}{2} 
+\cardinfo{Bird}{bird} 
+\cardcontent{3 \Feed: One other Species gains a \Trait for free.} 
+\end{tikzpicture}
+\newpage
+\begin{tikzpicture} 
+\cardborder{} 
+\cardcost{4}{2}{2} 
+\cardinfo{Bird}{bird} 
+\cardcontent{3 \Feed: One other Species gains a \Trait for free.} 
+\end{tikzpicture}
+\newpage
+\begin{tikzpicture} 
+\cardborder{} 
+\cardcost{4}{2}{2} 
+\cardinfo{Bird}{bird} 
+\cardcontent{3 \Feed: One other Species gains a \Trait for free.} 
+\end{tikzpicture}
+\newpage
+\begin{tikzpicture} 
+\cardborder{} 
+\cardcost{2}{3}{1} 
+\cardinfo{Spider}{insect} 
+\cardcontent{2 \Feed: Move 2 \Gene from this Species to the Center. Move the 2 lowest \Gene in the Center to one other Species.} 
+\end{tikzpicture}
+\newpage
+\begin{tikzpicture} 
+\cardborder{} 
+\cardcost{2}{3}{1} 
+\cardinfo{Spider}{insect} 
+\cardcontent{2 \Feed: Move 2 \Gene from this Species to the Center. Move the 2 lowest \Gene in the Center to one other Species.} 
+\end{tikzpicture}
+\newpage
+\begin{tikzpicture} 
+\cardborder{} 
+\cardcost{2}{3}{1} 
+\cardinfo{Spider}{insect} 
+\cardcontent{2 \Feed: Move 2 \Gene from this Species to the Center. Move the 2 lowest \Gene in the Center to one other Species.} 
+\end{tikzpicture}
+\newpage
+\begin{tikzpicture} 
+\cardborder{} 
+\cardcost{2}{3}{1} 
+\cardinfo{Spider}{insect} 
+\cardcontent{2 \Feed: Move 2 \Gene from this Species to the Center. Move the 2 lowest \Gene in the Center to one other Species.} 
+\end{tikzpicture}
+\newpage

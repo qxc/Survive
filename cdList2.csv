@@ -1,0 +1,31 @@
+Name,Type,Cost Disaster,Cost Virus,Biome,Population,Traits,Description,Card Status,Supply,Image,IsExtinction,
+Desert,Biome,,,,,,Have exactly 4 \Gene.,x,1,Biome,,Destroy a species with 1+ Red \Gene and no Black \Gene.
+Tundra,Biome,,,,,,Have only Gray \Gene.,x,1,Biome,,
+Jungle,Biome,,,,,,Have exactly 1 \Trait and no Blue \Gene.,x,1,Biome,,
+Marsh,Biome,,,,,,Have 4 or more Gray \Gene and no Blue \Gene.,,1,Biome,,"Destroy a species with 1+ Red \Gene, 1+ Blue \Gene and 2+ Black \Gene."
+Rainforest,Biome,,,,,,Have 5 or less \Gene and 3 or more Gray \Gene.,x,1,Biome,,
+Savannah,Biome,,,,,,Have no \Gene.,x,1,Biome,,Destroy a species with 1+ Red \Gene and 2 Blue \Gene.
+Prairie,Biome,,,,,,Have total \Gene value between 3 and 6.,x,1,Biome,,Destroy a species with 5+ Black \Gene.
+Mountain,Biome,,,,,,Have total \Trait value of 5 or more.,,1,Biome,,Destroy a species with 4+ Blue \Gene.
+Hills,Biome,,,,,,Have only Purple \Gene.,x,1,Biome,,Destroy a species with 2+ Purple \Gene.
+Ocean,Biome,,,,,,Have only Red \Gene.,,1,Biome,,Destroy a species with 1+ Red \Gene and 1+ Purple \Gene.
+Forest Fire,Extinction,,,,,,Have 2 or more \Trait.,x,1,Extinction,,
+Epidemic,Extinction,,,,,,Have more Purple \Gene than any other color.,x,1,Extinction,,
+Tornado,Extinction,,,,,,Have less 5 or less \Gene and 3 or more Blue \Gene.,x,1,Extinction,,
+Hurricane,Extinction,,,,,,Have 2 or more Red \Gene and 3 or more Gray \Gene.,,1,Extinction,,
+Desert,Goal,,,,,,Have exactly 2 Red \Gene and no other \Gene.,,1,Goal,,
+Tundra,Goal,,,,,,Have exactly 1 Red \Gene and 7+ Gray \Gene.,,1,Goal,,
+Jungle,Goal,,,,,,Have 2+ Red \Gene and less than 3 Blue \Gene.,,1,Goal,,
+Marsh,Goal,,,,,,Have exactly 1 Red \Gene and 2+ \Trait.,,1,Goal,,
+Rainforest,Goal,,,,,,Have exactly 1 Red \Gene and 2 Purple \Gene.,,1,Goal,,
+Savannah,Goal,,,,,,Have 3+ species each with 1+ \Trait.,,1,Goal,,
+Prairie,Goal,,,,,,Have a species with 1+ Red \Gene and 2+ Purple \Gene.,,1,Goal,,
+Tide Pool,Goal,,,,,,Have a species with 6+ Blue \Gene and no Gray \Gene.,,1,Goal,,
+Grassland,Goal,,,,,,Have 1 species with 3+ \Trait.,,1,Goal,,
+Mountain,Goal,,,,,,Have a species with 1+ Red \Gene and 4+ Blue \Gene.,,1,Goal,,
+Hills,Goal,,,,,,Have a species with no \Gene.,,1,Goal,,
+Ocean,Goal,,,,,,Have a species with 2+ Purple \Gene and no Blue \Gene.,,1,Goal,,
+Coral Reef,Goal,,,,,,Have a speceis with 9+ \Gene of one color.,,1,Goal,,
+Volcano,Goal,,,,,,Have a species with Total value of \Trait 5+.,,1,Goal,,
+Arctic,Goal,,,,,,Have a species with Total value of \Gene 8+.,,1,Goal,,
+Trigger Extinction,Extinction,,,,,,Resolve the top card of the Extinction deck.,x,3,Extinction,,

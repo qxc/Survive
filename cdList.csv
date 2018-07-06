@@ -1,26 +1,34 @@
 Name,Type,Tier,Cost Red,Cost Blue,Cost Yellow,Catastrophe Color,Catastrophe Color2,Description,Card Status,Supply,Image
-Chitin,newTrait,,1,,,,,Gain Lowest \Gene,x,2,adapt
-Spines,newTrait,,1,,,,,Upgrade 2 different \Gene,x,2,evolve
-Night Vision,newTrait,,1,,,,,\Another: Upgrade 1 \Gene,x,2,another
-Claws,newTrait,,1,,,,,Gain a \Gene from your Cup. Then move 1 \Gene to your Cup. ,x,2,Mutate
-Wings,newTrait,,2,,,,,"When another species survives a catastrophe or extinction, gain highest \Gene.",x,2,mutate
-Farsight,newTrait,,2,,,,,\Another: Move 1 \Gene to another species.,x,2,another
-Venom,newTrait,,2,,,,,Gain highest \Gene. Upgrade 2 \Gene,x,2,evolve
-Pheromones,newTrait,,3,,,,,,x,2,another
-Scales,newTrait,,2,,,,,Gain 1 \Gene from your draw. Move 1 \Gene to your draw.,x,2,Mutate
-Hooves,newTrait,,3,,,,,\WhenSurvive a catastrophe or extinction +1 \vp.,x,2,vp
-Sprinter,newTrait,,2,,,,,Draw +1 \Gene each turn.,x,2,another
-Infrared Senses,newTrait,,3,,,,,\Another: Move 1 \Gene to the center. Gain 1 \Gene of the same or next highest value \Gene.,x,2,Another
-Second Heart,newTrait,,3,,,,,Move 2 \Gene to another species.,x,2,Mutate
-Bioluminescence,newTrait,,3,,,,,Upgrade one \Gene twice. Gain highest \Gene,x,2,evolve
-Fur,newTrait,,4,,,,,Add the lowest \Gene in the Center to the Center from the supply. Gain two highest \Gene,x,2,adapt
-Gills,newTrait,,4,,,,,Move 3 \Gene collectively from other species to this species.,x,2,Adapt
-Camouflage,newTrait,,5,,,,,Move any number of \Gene to another species.,x,2,Mutate
-Amphibian,newSpecies,,2,1,0,,,2 \Feed: Move 1 \Gene to the center. Gain 1 \Gene of the same or next highest value \Gene.,x,4,frog
-Fungi,newSpecies,,3,0,1,,,2 \Feed: Upgrade 2 different \Gene. Gain lowest \Gene,x,4,fungus
-Bacteria,newSpecies,,1,1,1,,,2 \Feed: Gain 1 Gray \Gene,x,8,parmecia
-Bird,newSpecies,,4,2,2,,,3 \Feed: Another species gains a \Trait for free.,x,4,Bird
-Insect,newSpecies,,2,3,1,,,2 \Feed: Move 2 \Gene to the center. Another species gains the 2 lowest \Gene,x,4,Insect
+Chitin,newTrait,,1,,,,,Move the lowest \Gene from the Center to this Species.,x,2,gain
+Claws,newTrait,,1,,,,,Upgrade 2 different \Gene in the Center.,x,2,upgrade
+Night Vision,newTrait,,1,,,,,\Another: Upgrade 1 \Gene in the Center.,x,2,another
+Venom,newTrait,,1,,,,,Move 1 \Gene from your Cup to this Species. Move 1 \Gene from this Species to your Cup.,x,2,odd
+Echolocation,newTrait,,2,,,,,\Another: Move 1 \Gene from this Species to one other Species.,x,2,another
+Armored Shell,newTrait,,2,,,,,Move the highest \Gene from the Center to this Species. Upgrade 2 \Gene in the Center.,x,2,gain
+Second Heart,newTrait,,2,,,,,Move 1 \Gene from this Species to your Hand. Move 1 \Gene from your Hand to this Species. ,x,2,odd
+Pack Hunter,newTrait,,3,,,,,+1 \vp.,x,2,vp
+Spines,newTrait,,2,,,,,Upgrade 1 \Gene in the Center. Move the lowest \Gene from the Center to this Species.,x,2,gain
+Infrared Senses,newTrait,,3,,,,,\Another: Move 1 \Gene from this Species to the Center. Move 1 \Gene from the Center of the same or next highest value \Gene to this Species.,x,2,another
+Camouflage,newTrait,,3,,,,,Move 2 \Gene from this Species to one other Species.,x,2,move
+Scales,newTrait,,3,,,,,Upgrade 2 different \Gene in the Center. Move the highest \Gene from the Center to this Species.,x,2,gain
+Fur,newTrait,,4,,,,,Move the 2 highest \Gene from the Center to this Species.,x,2,gain
+Flippers,newTrait,,4,,,,,Move 3 total \Gene from other Species to this Species.,x,2,move
+Wings,newTrait,,4,,,,,Move up to 4 \Gene from this Species to one other Species.,x,2,move
+Amphibian,newSpecies,,2,1,1,,,2 \Feed: Move 1 \Gene from this Species to the Center. Move 1 \Gene from the Center of the same or next highest value \Gene to this Species.,x,4,frog
+Fungus,newSpecies,,3,1,1,,,2 \Feed: Upgrade 2 different \Gene in the Center. Move the lowest \Gene in the Center to this Species.,x,4,fungus
+Bacteria,newSpecies,,1,1,1,,,2 \Feed: Move the lowest \Gene from the Center to this Species.,x,8,parmecia
+Bird,newSpecies,,4,2,2,,,3 \Feed: One other Species gains a \Trait for free.,x,4,Bird
+Spider,newSpecies,,2,3,1,,,2 \Feed: Move 2 \Gene from this Species to the Center. Move the 2 lowest \Gene in the Center to one other Species.,x,4,Insect
 Algae,newSpecies,,4,2,,,,,,4,Algae
-Mammal,newSpecies,,5,3,2,,,3 \Feed: Upgrade 1 \Gene. Gain highest \Gene. Move 1 \Gene to another species.,x,4,pig
+Mammal,newSpecies,,5,3,2,,,3 \Feed: Upgrade 1 \Gene in the Center. Move the highest \Gene in the Center to this Species. Move 1 \Gene on this Species to one other Species.,,4,pig
 Reptile,newSpecies,,5,2,,,,,,4,diplo
+,,,,,,,,,,,
+,,,,,,,,,,,
+Trait Categories:,symbol:,count:,theme,,,,,,,,
+,,,,,,,,,,,
+upgrade,upgrade,,external weapons,,,,,,,,
+move,move,,movement,,,,,,,,
+gain,gain,,skin coverings,,,,,,,,
+another,another,,sensing,,,,,,,,
+VP,VP,,Behavioral,,,,,,,,
+odd effects (+draw),odd,,internal stuff,,,,,,,,
